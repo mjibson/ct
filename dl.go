@@ -111,8 +111,8 @@ func dl() error {
 							if strings.HasSuffix(s, " bitter") {
 								s += "s"
 							}
-							for from, to := range replacements {
-								s = strings.Replace(s, from, to, -1)
+							if ns, ok := replacements[s]; ok {
+								s = ns
 							}
 							short[i] = s
 						}
@@ -123,6 +123,7 @@ func dl() error {
 				if len(greds) == 0 {
 					return
 				}
+				cap = strings.TrimSuffix(cap, " (cocktail)")
 				ct := CT{
 					Name:       cap,
 					Link:       u,

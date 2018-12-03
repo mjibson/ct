@@ -1689,7 +1689,7 @@
     ],
     "ShortGreds": [
       "rye whiskey",
-      "sweet sweet vermouth",
+      "sweet vermouth",
       "angostura bitters"
     ]
   },
@@ -1987,8 +1987,8 @@
       "mint leaves"
     ]
   },
-  "Negroni (cocktail)": {
-    "Name": "Negroni (cocktail)",
+  "Negroni": {
+    "Name": "Negroni",
     "Link": "https://en.wikipedia.org/wiki/Negroni",
     "Details": [
       [
