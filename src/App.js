@@ -22,6 +22,11 @@ class App extends Component {
 			.reverse();
 		super(props);
 		const have = JSON.parse(localStorage.getItem('have') || '{}');
+		Object.keys(have).forEach(v => {
+			if (!allGreds[v]) {
+				delete have[v];
+			}
+		});
 		this.state = {
 			allGreds: allGreds,
 			gredsByCount: gredsByCount,
