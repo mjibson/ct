@@ -55,7 +55,7 @@ class App extends Component {
 		make.sort((a, b) => a.Name.localeCompare(b.Name));
 		could.sort((a, b) => {
 			if (a.missing.length !== b.missing.length) {
-				return b.missing.length - a.missing.length;
+				return a.missing.length - b.missing.length;
 			}
 			return a.Name.localeCompare(b.Name);
 		});
