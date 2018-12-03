@@ -10,7 +10,7 @@ Object.values(drinks).forEach(v =>
 	})
 );
 
-const colClass = 'w-25';
+const colClass = 'flex-wrap pa1 mr1';
 
 class App extends Component {
 	constructor(props) {
@@ -80,14 +80,14 @@ class App extends Component {
 		const have = Object.keys(this.state.have)
 			.sort()
 			.map(v => (
-				<li className="ma1" key={v}>
-					<label>
-						{v} ({this.state.allGreds[v]})
-					</label>
-				</li>
+				<div className="ma2" key={v}>
+					{v}
+					&nbsp;(
+					{this.state.allGreds[v]})
+				</div>
 			));
 		const greds = this.state.gredsByCount.map(v => (
-			<li className="ma1" key={v}>
+			<div className="ma2" key={v}>
 				<label>
 					<input
 						type="checkbox"
@@ -95,9 +95,11 @@ class App extends Component {
 						onChange={this.clickGred}
 						checked={!!this.state.have[v]}
 					/>{' '}
-					{v} ({this.state.allGreds[v]})
+					{v}
+					&nbsp;(
+					{this.state.allGreds[v]})
 				</label>
-			</li>
+			</div>
 		));
 		const make = this.state.make.map(v => (
 			<div key={v.Name} className="ma2">
@@ -106,27 +108,29 @@ class App extends Component {
 		));
 		const could = this.state.could.map(v => (
 			<div key={v.Name} className="ma2">
-				<a href={v.Link}>{v.Name}</a> ({v.missing.length}
+				<a href={v.Link}>{v.Name}</a>
+				&nbsp;(
+				{v.missing.length}
 				): {v.missing.join(', ')}
 			</div>
 		));
 		return (
-			<div className="sans-serif ma3 flex">
-				<div className={colClass}>
+			<div className="sans-serif flex">
+				<div className={colClass + ' br'}>
 					possible ingredients:
-					<ul className="list">{greds}</ul>
+					{greds}
 				</div>
-				<div className={colClass}>
+				<div className={colClass + ' br'}>
 					have:
-					<ul className="list">{have}</ul>
+					{have}
 				</div>
-				<div className={colClass}>
+				<div className={colClass + ' br'}>
 					can make:
-					<ul className="list indent-n2em">{make}</ul>
+					<div className=" indent-n2em">{make}</div>
 				</div>
 				<div className={colClass}>
 					could make (missing ingredients shown):
-					<ul className="list">{could}</ul>
+					<div className="">{could}</div>
 				</div>
 			</div>
 		);
