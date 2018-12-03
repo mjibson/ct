@@ -94,7 +94,9 @@ func dl() error {
 									}
 								}
 								ns := strings.Join(strings.Fields(strings.Join(parenRE.Split(s, -1), " ")), " ")
-								ns = strings.TrimSuffix(ns, ", fresh")
+								for _, e := range endings {
+									ns = strings.TrimSuffix(ns, e)
+								}
 								if ns != s {
 									changed = true
 									s = ns
@@ -105,6 +107,12 @@ func dl() error {
 							}
 							if s == "" {
 								fmt.Println("no short", greds[i], cap, u)
+							}
+							if strings.HasSuffix(s, " bitter") {
+								s += "s"
+							}
+							for from, to := range replacements {
+								s = strings.Replace(s, from, to, -1)
 							}
 							short[i] = s
 						}
@@ -152,8 +160,6 @@ func dl() error {
 	}
 	wg.Wait()
 	b, _ := json.MarshalIndent(cts, "", "  ")
-	fmt.Println(string(b))
-
 	return ioutil.WriteFile("src/drinks.json", b, 0666)
 }
 
@@ -199,8 +205,27 @@ var (
 		"few",
 		"a pinch",
 		"pinch",
+		"half a",
+		"half",
+		"slice",
+		"bar spoons",
+		"plain",
+		"barspoon",
 	}
 	parenRE = regexp.MustCompile(`\(.*?\)`)
+	replacements = map[string]string{
+		"kahlua": "kahlúa",
+		"soda water": "carbonated water",
+		"sugar syrup": "simple syrup",
+		"sweet red vermouth": "sweet vermouth",
+		"red vermouth": "sweet vermouth",
+		"white vermouth": "dry vermouth",
+	}
+	endings = []string{
+		"cut into 4 wedges",
+		", fresh",
+		"finely chopped",
+	}
 )
 
 type CT struct {

@@ -83,8 +83,8 @@
     ],
     "ShortGreds": [
       "campari",
-      "red vermouth",
-      "soda water"
+      "sweet vermouth",
+      "carbonated water"
     ]
   },
   "Angel Face": {
@@ -549,7 +549,7 @@
     ],
     "ShortGreds": [
       "cachaça",
-      "half a lime cut into 4 wedges",
+      "lime",
       "sugar"
     ]
   },
@@ -974,8 +974,8 @@
     ],
     "ShortGreds": [
       "vodka",
-      "kahlua",
-      "sugar syrup",
+      "kahlúa",
+      "simple syrup",
       "short strong espresso"
     ]
   },
@@ -1134,7 +1134,7 @@
       "gin",
       "lemon juice",
       "gomme syrup",
-      "soda water"
+      "carbonated water"
     ]
   },
   "Golden Dream": {
@@ -1346,7 +1346,7 @@
     "ShortGreds": [
       "brandy",
       "ginger ale",
-      "angostura bitter"
+      "angostura bitters"
     ]
   },
   "Irish Coffee": {
@@ -1425,7 +1425,7 @@
     "ShortGreds": [
       "gin",
       "lemon juice",
-      "sugar syrup",
+      "simple syrup",
       "carbonated water"
     ]
   },
@@ -1689,7 +1689,7 @@
     ],
     "ShortGreds": [
       "rye whiskey",
-      "sweet red vermouth",
+      "sweet sweet vermouth",
       "angostura bitters"
     ]
   },
@@ -1900,7 +1900,7 @@
       "lime juice",
       "sprigs of mint",
       "sugar",
-      "soda water"
+      "carbonated water"
     ]
   },
   "Monkey Gland": {
@@ -2027,7 +2027,7 @@
     ],
     "ShortGreds": [
       "gin",
-      "sweet red vermouth",
+      "sweet vermouth",
       "campari"
     ]
   },
@@ -2074,7 +2074,7 @@
       "bourbon or rye whiskey",
       "angostura bitters",
       "sugar cube",
-      "plain water"
+      "water"
     ]
   },
   "Paradise": {
@@ -2251,7 +2251,7 @@
       "pineapple juice",
       "lemon juice",
       "grenadine syrup",
-      "sugar syrup",
+      "simple syrup",
       "angostura bitters"
     ]
   },
@@ -2344,7 +2344,7 @@
       "egg white",
       "orange flower water",
       "vanilla extract",
-      "soda water"
+      "carbonated water"
     ]
   },
   "Rose": {
@@ -2421,7 +2421,7 @@
     "ShortGreds": [
       "vodka",
       "crème de cassis",
-      "sugar syrup",
+      "simple syrup",
       "lemon juice"
     ]
   },
@@ -2763,7 +2763,7 @@
       "sloe gin",
       "grapefruit juice",
       "simple syrup",
-      "soda water",
+      "carbonated water",
       "egg white"
     ]
   },
@@ -2804,7 +2804,7 @@
     "ShortGreds": [
       "prosecco",
       "aperol",
-      "soda water"
+      "carbonated water"
     ]
   },
   "Stinger": {
@@ -3002,7 +3002,7 @@
     "ShortGreds": [
       "tequila",
       "lime juice",
-      "bar spoons of agave nectar"
+      "agave nectar"
     ]
   },
   "Tuxedo": {
@@ -3048,8 +3048,8 @@
     "ShortGreds": [
       "gin",
       "dry vermouth",
-      "barspoon maraschino",
-      "barspoon absinthe",
+      "maraschino",
+      "absinthe",
       "orange bitters"
     ]
   },
@@ -3099,7 +3099,7 @@
       "orange juice",
       "lime juice",
       "clear honey",
-      "half slice onion finely chopped",
+      "onion",
       "red hot chili pepper",
       "worcestershire sauce",
       "salt"
