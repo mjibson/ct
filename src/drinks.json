@@ -808,9 +808,9 @@
       "1.5 cl / 1/2 oz (3 parts) simple syrup"
     ],
     "ShortGreds": [
-      "1.5oz white rum",
-      "5/6 oz lime juice",
-      "1/2 oz simple syrup"
+      "white rum",
+      "lime juice",
+      "simple syrup"
     ]
   },
   "Dark 'n' Stormy": {
@@ -2422,7 +2422,7 @@
       "vodka",
       "crème de cassis",
       "sugar syrup",
-      "lemon juice, fresh"
+      "lemon juice"
     ]
   },
   "Rusty Nail": {
@@ -3100,7 +3100,7 @@
       "lime juice",
       "clear honey",
       "half slice onion finely chopped",
-      "slices fresh red hot chili pepper",
+      "red hot chili pepper",
       "worcestershire sauce",
       "salt"
     ]

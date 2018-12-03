@@ -79,7 +79,7 @@ func dl() error {
 						short = make([]string, len(greds))
 						for i, s := range greds {
 							for {
-								s = strings.ToLower(strings.TrimSpace(strings.TrimLeft(s, "+–0123456789./½¾⅔")))
+								s = strings.ToLower(strings.TrimSpace(strings.TrimLeft(s, " +–0123456789./½¾⅔")))
 								s = strings.TrimRight(s, ".")
 								changed := false
 								for _, m := range measurements {
@@ -94,6 +94,7 @@ func dl() error {
 									}
 								}
 								ns := strings.Join(strings.Fields(strings.Join(parenRE.Split(s, -1), " ")), " ")
+								ns = strings.TrimSuffix(ns, ", fresh")
 								if ns != s {
 									changed = true
 									s = ns
@@ -179,6 +180,7 @@ var (
 		"pint",
 		"shot",
 		"slice",
+		"slices",
 		"tbsp",
 		"teaspoons",
 		"teaspoon",
