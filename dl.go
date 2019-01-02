@@ -215,13 +215,20 @@ var (
 	}
 	parenRE      = regexp.MustCompile(`\(.*?\)`)
 	replacements = map[string]string{
-		"grenadine syrup":    "grenadine",
-		"kahlua":             "kahlúa",
-		"red vermouth":       "sweet vermouth",
-		"soda water":         "carbonated water",
-		"sugar syrup":        "simple syrup",
-		"sweet red vermouth": "sweet vermouth",
-		"white vermouth":     "dry vermouth",
+		"grenadine syrup":        "grenadine",
+		"kahlua":                 "kahlúa",
+		"red vermouth":           "sweet vermouth",
+		"soda water":             "carbonated water",
+		"sugar syrup":            "simple syrup",
+		"sweet red vermouth":     "sweet vermouth",
+		"white vermouth":         "dry vermouth",
+		"amaretto liqueur":       "amaretto",
+		"creme de mure":          "crème de mûre",
+		"creme de violette":      "crème de violette",
+		"scotch whisky":          "scotch",
+		"bourbon whiskey":        "bourbon",
+		"bourbon or rye whiskey": "whiskey",
+		"rye whiskey":            "rye",
 	}
 	endings = []string{
 		"cut into 4 wedges",

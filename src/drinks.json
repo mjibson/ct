@@ -61,7 +61,7 @@
       ],
       [
         "standard garnish",
-        "half an orange slice"
+        "half an orange slice, lemon twist"
       ],
       [
         "standard drinkware",
@@ -69,7 +69,7 @@
       ],
       [
         "preparation",
-        "Pour the Campari and vermouth over ice into a highball glass, add a splash of soda water and garnish with half orange slice."
+        "Pour the Campari and vermouth over ice into a highball glass, add a splash of soda water and garnish with half orange slice and a lemon twist."
       ],
       [
         "timing",
@@ -168,7 +168,7 @@
     ],
     "ShortGreds": [
       "gin",
-      "creme de violette",
+      "crème de violette",
       "lemon juice",
       "maraschino liqueur"
     ]
@@ -506,7 +506,7 @@
       "gin",
       "lemon juice",
       "simple syrup",
-      "creme de mure"
+      "crème de mûre"
     ]
   },
   "Caipirinha": {
@@ -527,7 +527,7 @@
       ],
       [
         "standard garnish",
-        "sugar cane, lime(ingredient)"
+        "sugarcane, lime(ingredient)"
       ],
       [
         "standard drinkware",
@@ -1052,7 +1052,7 @@
     ],
     "ShortGreds": [
       "cognac",
-      "amaretto liqueur"
+      "amaretto"
     ]
   },
   "French Martini": {
@@ -1688,7 +1688,7 @@
       "Dash Angostura bitters"
     ],
     "ShortGreds": [
-      "rye whiskey",
+      "rye",
       "sweet vermouth",
       "angostura bitters"
     ]
@@ -1853,7 +1853,7 @@
       "2 teaspoons water"
     ],
     "ShortGreds": [
-      "bourbon whiskey",
+      "bourbon",
       "mint leaves",
       "powdered sugar",
       "water"
@@ -2061,7 +2061,7 @@
       ],
       [
         "timing",
-        "Before Dinner"
+        "Before dinner"
       ]
     ],
     "Greds": [
@@ -2071,7 +2071,7 @@
       "Few dashes plain water"
     ],
     "ShortGreds": [
-      "bourbon or rye whiskey",
+      "whiskey",
       "angostura bitters",
       "sugar cube",
       "water"
@@ -2193,7 +2193,7 @@
       ],
       [
         "notes",
-        "Alternately, the three main components can simply be added to a cocktail glass, and then add ice cubes."
+        "Alternately, the three main components can simply be added to a cocktail glass with ice cubes."
       ]
     ],
     "Greds": [
@@ -2463,7 +2463,7 @@
       "2.5 cl Drambuie"
     ],
     "ShortGreds": [
-      "scotch whisky",
+      "scotch",
       "drambuie"
     ]
   },
@@ -2923,7 +2923,7 @@
       "3.5 cl Amaretto"
     ],
     "ShortGreds": [
-      "scotch whisky",
+      "scotch",
       "amaretto"
     ]
   },
@@ -2979,7 +2979,7 @@
       ],
       [
         "served",
-        "Straight up; without ice"
+        "straight (except at Tommy’s)"
       ],
       [
         "standard drinkware",
@@ -3193,7 +3193,7 @@
       "dash egg white (optional)"
     ],
     "ShortGreds": [
-      "bourbon whiskey",
+      "bourbon",
       "lemon juice",
       "gomme syrup",
       "egg white"
