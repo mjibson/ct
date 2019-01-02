@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'tachyons/css/tachyons.min.css';
 import './App.css';
 import drinks from './drinks';
+import { gredImplies, isAlcohol } from './util';
 
 const allGreds = {};
 Object.values(drinks).forEach(v =>
@@ -30,7 +31,7 @@ class App extends Component {
 		this.state = {
 			allGreds: allGreds,
 			gredsByCount: gredsByCount,
-			have: have,
+			checked: have,
 			make: [],
 			could: [],
 		};
@@ -76,17 +77,8 @@ class App extends Component {
 		localStorage.setItem('have', JSON.stringify(have));
 		this.setState({ have: have }, this.update);
 	};
-	render() {
-		const have = Object.keys(this.state.have)
-			.sort()
-			.map(v => (
-				<div className="ma2" key={v}>
-					{v}
-					&nbsp;(
-					{this.state.allGreds[v]})
-				</div>
-			));
-		const greds = this.state.gredsByCount.map(v => (
+	renderGred = v => {
+		return (
 			<div className="ma2" key={v}>
 				<label>
 					<input
@@ -100,7 +92,24 @@ class App extends Component {
 					{this.state.allGreds[v]})
 				</label>
 			</div>
-		));
+		);
+	};
+	render() {
+		const have = Object.keys(this.state.have)
+			.sort()
+			.map(v => (
+				<div className="ma2" key={v}>
+					{v}
+					&nbsp;(
+					{this.state.allGreds[v]})
+				</div>
+			));
+		const gredsAlch = this.state.gredsByCount
+			.filter(isAlcohol)
+			.map(this.renderGred);
+		const gredsOther = this.state.gredsByCount
+			.filter(v => !isAlcohol(v))
+			.map(this.renderGred);
 		const make = this.state.make.map(v => (
 			<div key={v.Name} className="ma2">
 				<a href={v.Link}>{v.Name}</a>: {v.ShortGreds.join(', ')}
@@ -117,8 +126,11 @@ class App extends Component {
 		return (
 			<div className="sans-serif flex">
 				<div className={colClass + ' br'}>
-					possible ingredients:
-					{greds}
+					<h2>ingredients</h2>
+					alcohols:
+					{gredsAlch}
+					other:
+					{gredsOther}
 				</div>
 				<div className={colClass + ' br'}>
 					have:

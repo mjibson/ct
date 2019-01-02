@@ -222,6 +222,10 @@ var (
 		"sugar syrup":        "simple syrup",
 		"sweet red vermouth": "sweet vermouth",
 		"white vermouth":     "dry vermouth",
+		"amaretto liqueur":   "amaretto",
+		"creme de mure":      "crème de mûre",
+		"scotch whisky":      "scotch",
+		"bourbon whiskey":    "bourbon",
 	}
 	endings = []string{
 		"cut into 4 wedges",
