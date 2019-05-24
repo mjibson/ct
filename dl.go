@@ -127,7 +127,7 @@ func dl() error {
 				ct := CT{
 					Name:       cap,
 					Link:       u,
-					Details:    details,
+					//Details:    details,
 					Greds:      greds,
 					ShortGreds: short,
 				}
@@ -238,9 +238,9 @@ var (
 )
 
 type CT struct {
-	Name       string
-	Link       string
-	Details    [][]string
+	Name string
+	Link string
+	//Details    [][]string
 	Greds      []string
 	ShortGreds []string
 }
