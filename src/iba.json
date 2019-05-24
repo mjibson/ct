@@ -652,8 +652,8 @@
 		"Greds": ["4.5 cl Scotch Whisky", "2.5 cl Drambuie"],
 		"ShortGreds": ["scotch", "drambuie"]
 	},
-	"Sazerac": {
-		"Name": "Sazerac",
+	"Cognac Sazerac": {
+		"Name": "Cognac Sazerac",
 		"Link": "https://en.wikipedia.org/wiki/Sazerac",
 		"Prep": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.[1]",
 		"Greds": [

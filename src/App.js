@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import 'tachyons/css/tachyons.min.css';
 import './App.css';
-import drinks from './drinks';
+import iba from './iba';
+import other from './other';
 import { gredImplies, isAlcohol } from './util';
+
+const drinks = {};
+Object.assign(drinks, iba);
+Object.assign(drinks, other);
 
 const allGreds = {};
 Object.values(drinks).forEach(v =>

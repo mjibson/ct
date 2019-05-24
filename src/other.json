@@ -1,0 +1,152 @@
+{
+	"Canchánchara": {
+		"Name": "Canchánchara",
+		"Prep": "Mix rum and honey together in a glass until honey dissolves. Add remaining greds, fill glass with ice. Mix.",
+		"Greds": [
+			"2 oz rum",
+			".25 oz honey",
+			".5 oz lime juice",
+			"1.5 oz carbonated water"
+		],
+		"ShortGreds": ["rum", "honey", "lime juice", "carbonated water"]
+	},
+	"Penicillin": {
+		"Name": "Penicillin",
+		"Prep": "Shake greds with ice. Strain into glass with ice. Float single malt peaty scotch.",
+		"Greds": [
+			"2 oz blended scotch",
+			"3/4 oz lemon juice",
+			"3/16 oz honey syrup",
+			"3/16 oz ginger syrup"
+		],
+		"ShortGreds": ["scotch", "lemon juice", "honey syrup", "ginger syrup"]
+	},
+	"Sazerac": {
+		"Name": "Sazerac",
+		"Prep": "Chill a glass; empty and rinse with absinthe. Combine greds in a mixing glass, fill with ice, stir. Strain into absinthe glass. Twist a lemon peel over drink for oils, discard peel.",
+		"Greds": [
+			"2 oz rye",
+			"scant 1/4 oz simple syrup (1:1)",
+			"1 dash angostura bitters",
+			"2 dashes peychaud's bitters",
+			"absinthe"
+		],
+		"ShortGreds": [
+			"rye",
+			"simple syrup",
+			"angostura bitters",
+			"peychaud's bitters",
+			"absinthe"
+		]
+	},
+	"Aviation": {
+		"Name": "Aviation",
+		"Prep": "Combine greds in shaker with ice. Strain into coupe. Garnish with cherry.",
+		"Greds": [
+			"1.5 oz gin",
+			"3/4 oz maraschino liqueur",
+			"1/2 oz lemon juice",
+			"1/4 oz crème de violette"
+		],
+		"ShortGreds": [
+			"gin",
+			"maraschino liqueur",
+			"lemon juice",
+			"crème de violette"
+		]
+	},
+	"Last Word": {
+		"Name": "Last Word",
+		"Prep": "Combine greds in shaker with ice. Double strain into chilled coupe.",
+		"Greds": [
+			"3/4 oz gin",
+			"3/4 oz green chartreuse",
+			"3/4 oz maraschino liqueur",
+			"3/4 oz lime juice"
+		],
+		"ShortGreds": [
+			"gin",
+			"green chartreuse",
+			"maraschino liqueur",
+			"lime juice"
+		]
+	},
+	"Yellow Daisy": {
+		"Name": "Yellow Daisy",
+		"Prep": "Combine greds in mixing glass with icx. Stir and strain into chilled coupe.",
+		"Greds": [
+			"1 oz gin",
+			"1 oz dry vermouth",
+			"1/2 oz orange liqueur",
+			"absinthe"
+		],
+		"ShortGreds": ["gin", "dry vermouth", "orange liqueur", "absinthe"]
+	},
+	"Rob Roy": {
+		"Name": "Rob Roy",
+		"Prep": "Combine greds in mixing glass with icx. Stir and strain into chilled coupe. Garnish with maraschino cherry.",
+		"Greds": [
+			"1 1/2 oz scotch",
+			"3/4 oz sweet vermouth",
+			"2 dashes angostura bitters"
+		],
+		"ShortGreds": ["scotch", "sweet vermouth", "angostura bitters"]
+	},
+	"Rusty Nail": {
+		"Name": "Rusty Nail",
+		"Prep": "Add ice to double old fashioned glass. Add drambiue and scotch. Garnish with citrus twist.",
+		"Greds": ["1 1/2 oz scotch", "3/4 oz drambuie"],
+		"ShortGreds": ["scotch", "drambuie"]
+	},
+	"Blood and Sand": {
+		"Name": "Blood and Sand",
+		"Prep": "Combine greds in shaker with ice. Strain into chilled coupe. Garnish with orange twist.",
+		"Greds": [
+			"3/4 oz scotch",
+			"3/4 oz sweet vermouth",
+			"3/4 oz cherry liqueur",
+			"3/4 oz orange juice"
+		],
+		"ShortGreds": ["scotch", "sweet vermouth", "cherry liqueur", "orange juice"]
+	},
+	"Bobby Burns": {
+		"Name": "Bobby Burns",
+		"Prep": "Combine greds in mixing glass with icx. Stir and strain into chilled cocktail glass. Garnish with lemon twist.",
+		"Greds": [
+			"2 oz scotch",
+			"1oz sweet vermouth",
+			"1/4 oz dom bénédictine",
+			"2 dashes peychaud's bitters"
+		],
+		"ShortGreds": [
+			"scotch",
+			"sweet vermouth",
+			"dom bénédictine",
+			"peychaud's bitters"
+		]
+	},
+	"Ramos Gin Fizz v2": {
+		"Name": "Ramos Gin Fizz v2",
+		"Prep": "Add carbonated water to chilled collins glass. Dry shake everything else. Shake with a single large rock until the cube completely dissolves. Pour over the carbonated water until it hits the rim, then let the meringue set for a couple minutes. Pour the remainder in the middle to lift the meringue and enjoy.",
+		"Greds": [
+			"2 oz gin",
+			"1/2 oz lime juice",
+			"1/2 oz lemon juice",
+			"3/4 oz simple syrup (1:1)",
+			"3/4 oz heavy cream",
+			"1 egg white",
+			"4 drops orange flower water",
+			"1.5 oz carbonated water"
+		],
+		"ShortGreds": [
+			"gin",
+			"lime juice",
+			"lemon juice",
+			"simple syrup",
+			"cream",
+			"egg white",
+			"orange flower water",
+			"carbonated water"
+		]
+	}
+}
