@@ -13,7 +13,7 @@ const alcohols = {
 		'orange curaçao',
 		'curaçao',
 	],
-	'cherry liqueur': ['maraschino liqueur', 'cherry heering'],
+	'cherry liqueur': ['cherry heering', 'maraschino'],
 	vodka: ['vodka citron'],
 	whiskey: ['rye', 'bourbon', 'scotch', 'irish whiskey'],
 	cachaça: [],

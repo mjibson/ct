@@ -44,16 +44,11 @@
 		"Prep": "Combine greds in shaker with ice. Strain into coupe. Garnish with cherry.",
 		"Greds": [
 			"1.5 oz gin",
-			"3/4 oz maraschino liqueur",
+			"3/4 oz maraschino",
 			"1/2 oz lemon juice",
 			"1/4 oz crème de violette"
 		],
-		"ShortGreds": [
-			"gin",
-			"maraschino liqueur",
-			"lemon juice",
-			"crème de violette"
-		]
+		"ShortGreds": ["gin", "maraschino", "lemon juice", "crème de violette"]
 	},
 	"Last Word": {
 		"Name": "Last Word",
@@ -61,15 +56,10 @@
 		"Greds": [
 			"3/4 oz gin",
 			"3/4 oz green chartreuse",
-			"3/4 oz maraschino liqueur",
+			"3/4 oz maraschino",
 			"3/4 oz lime juice"
 		],
-		"ShortGreds": [
-			"gin",
-			"green chartreuse",
-			"maraschino liqueur",
-			"lime juice"
-		]
+		"ShortGreds": ["gin", "green chartreuse", "maraschino", "lime juice"]
 	},
 	"Yellow Daisy": {
 		"Name": "Yellow Daisy",

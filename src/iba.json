@@ -24,8 +24,8 @@
 		"Name": "Aviation",
 		"Link": "https://en.wikipedia.org/wiki/Aviation_(cocktail)",
 		"Prep": "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass. Garnish with a cherry.",
-		"Greds": ["45 ml gin", "15 ml lemon juice", "15 ml maraschino liqueur"],
-		"ShortGreds": ["gin", "lemon juice", "maraschino liqueur"]
+		"Greds": ["45 ml gin", "15 ml lemon juice", "15 ml maraschino"],
+		"ShortGreds": ["gin", "lemon juice", "maraschino"]
 	},
 	"B-52": {
 		"Name": "B-52",
@@ -310,12 +310,7 @@
 			"1.5 cL (3 parts) Maraschino liqueur",
 			"1.5 cl (3 parts) fresh lime juice"
 		],
-		"ShortGreds": [
-			"rum",
-			"grapefruit juice",
-			"maraschino liqueur",
-			"lime juice"
-		]
+		"ShortGreds": ["rum", "grapefruit juice", "maraschino", "lime juice"]
 	},
 	"Horse's Neck": {
 		"Name": "Horse's Neck",
