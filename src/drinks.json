@@ -65,7 +65,7 @@
       ],
       [
         "standard drinkware",
-        "highball glass"
+        "Highball glass"
       ],
       [
         "preparation",
@@ -161,14 +161,12 @@
       ]
     ],
     "Greds": [
-      "1.5 oz gin",
-      ".5 oz creme de violette",
-      ".5 oz lemon juice",
-      ".5 oz maraschino liqueur"
+      "45 ml gin",
+      "15 ml lemon juice",
+      "15 ml maraschino liqueur"
     ],
     "ShortGreds": [
       "gin",
-      "crème de violette",
       "lemon juice",
       "maraschino liqueur"
     ]
@@ -187,7 +185,7 @@
       ],
       [
         "served",
-        "Neat; undiluted and without ice"
+        "Straight up; without ice"
       ],
       [
         "standard garnish",
@@ -217,8 +215,8 @@
       "grand marnier"
     ]
   },
-  "Bacardi cocktail": {
-    "Name": "Bacardi cocktail",
+  "Bacardi Cocktail": {
+    "Name": "Bacardi Cocktail",
     "Link": "https://en.wikipedia.org/wiki/Bacardi_cocktail",
     "Details": [
       [
@@ -319,7 +317,7 @@
       ],
       [
         "standard drinkware",
-        "small glass"
+        "Champagne flute"
       ],
       [
         "preparation",
@@ -480,6 +478,10 @@
         "Gin"
       ],
       [
+        "served",
+        "On the rocks; poured over ice"
+      ],
+      [
         "standard garnish",
         "Blackberry, lemon slice"
       ],
@@ -599,8 +601,8 @@
       "lemon juice"
     ]
   },
-  "Champagne cocktail": {
-    "Name": "Champagne cocktail",
+  "Champagne Cocktail": {
+    "Name": "Champagne Cocktail",
     "Link": "https://en.wikipedia.org/wiki/Champagne_Cocktail",
     "Details": [
       [
@@ -701,7 +703,7 @@
       ],
       [
         "standard garnish",
-        "lime slice"
+        "lemon slice"
       ],
       [
         "standard drinkware",
@@ -731,46 +733,6 @@
       "cointreau",
       "lime juice",
       "cranberry juice"
-    ]
-  },
-  "Cuba Libre (Rum and Coke)": {
-    "Name": "Cuba Libre (Rum and Coke)",
-    "Link": "https://en.wikipedia.org/wiki/Cuba_Libre",
-    "Details": [
-      [
-        "type",
-        "Cocktail"
-      ],
-      [
-        "primary alcohol by volume",
-        "Rum"
-      ],
-      [
-        "served",
-        "On the rocks; poured over ice"
-      ],
-      [
-        "standard garnish",
-        "Lime wedge"
-      ],
-      [
-        "standard drinkware",
-        "Highball glass"
-      ],
-      [
-        "preparation",
-        "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge."
-      ]
-    ],
-    "Greds": [
-      "12 cl Cola",
-      "5 cl white rum",
-      "1 cl Fresh lime juice"
-    ],
-    "ShortGreds": [
-      "cola",
-      "white rum",
-      "lime juice"
     ]
   },
   "Daiquiri": {
@@ -963,7 +925,7 @@
       ],
       [
         "preparation",
-        "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass"
+        "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass."
       ]
     ],
     "Greds": [
@@ -1085,9 +1047,9 @@
       ]
     ],
     "Greds": [
-      "5 cl vodka",
-      "2.5 cl Raspberry Liqueur",
-      "5.5 cl fresh pineapple juice"
+      "4.5 cl vodka",
+      "1.5 cl Raspberry Liqueur",
+      "1.5 cl fresh pineapple juice"
     ],
     "ShortGreds": [
       "vodka",
@@ -1095,9 +1057,9 @@
       "pineapple juice"
     ]
   },
-  "Gin fizz": {
-    "Name": "Gin fizz",
-    "Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_Fizz",
+  "Gin Fizz": {
+    "Name": "Gin Fizz",
+    "Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_fizz",
     "Details": [
       [
         "type",
@@ -1285,7 +1247,7 @@
       ],
       [
         "standard drinkware",
-        "double cocktail glass"
+        "Cocktail glass"
       ],
       [
         "preparation",
@@ -1515,8 +1477,8 @@
       "crème de cassis"
     ]
   },
-  "Lemon drop martini": {
-    "Name": "Lemon drop martini",
+  "Lemon Drop Martini": {
+    "Name": "Lemon Drop Martini",
     "Link": "https://en.wikipedia.org/wiki/Lemon_Drop_Martini",
     "Details": [
       [
@@ -1537,7 +1499,7 @@
       ],
       [
         "standard drinkware",
-        "Martini glass"
+        "Cocktail glass"
       ],
       [
         "preparation",
@@ -1581,7 +1543,7 @@
       ],
       [
         "preparation",
-        "Add all ingredients into highball glass filled with ice. Stir gently. Garnish with lemon spiral. Serve with straw. [1]"
+        "Add all ingredients into highball glass filled with ice. Stir gently. Garnish with lemon spiral. Serve with straw.[1]"
       ]
     ],
     "Greds": [
@@ -1623,7 +1585,7 @@
       ],
       [
         "standard garnish",
-        "pineapple spear, mint leaves and lime shell"
+        "spearmint leaves and lime shell"
       ],
       [
         "standard drinkware",
@@ -1793,7 +1755,7 @@
       ],
       [
         "served",
-        "Neat; undiluted and without ice"
+        "Straight up; without ice"
       ],
       [
         "standard garnish",
@@ -1817,8 +1779,8 @@
       "orange juice"
     ]
   },
-  "Mint julep": {
-    "Name": "Mint julep",
+  "Mint Julep": {
+    "Name": "Mint Julep",
     "Link": "https://en.wikipedia.org/wiki/Mint_Julep",
     "Details": [
       [
@@ -1945,48 +1907,6 @@
       "grenadine"
     ]
   },
-  "Moscow mule": {
-    "Name": "Moscow mule",
-    "Link": "https://en.wikipedia.org/wiki/Moscow_Mule",
-    "Details": [
-      [
-        "type",
-        "Mixed drink"
-      ],
-      [
-        "primary alcohol by volume",
-        "Vodka"
-      ],
-      [
-        "served",
-        "On the rocks; poured over ice"
-      ],
-      [
-        "standard garnish",
-        "Lime slice"
-      ],
-      [
-        "standard drinkware",
-        "copper mug"
-      ],
-      [
-        "preparation",
-        "Combine vodka and ginger beer in a highball glass filled with ice. Add lime juice. Stir gently. Garnish."
-      ]
-    ],
-    "Greds": [
-      "4.5 cl (9 parts) vodka",
-      "0.5 cl (1 part) lime juice",
-      "12 cl (24 parts) ginger beer",
-      "3 mint leaves"
-    ],
-    "ShortGreds": [
-      "vodka",
-      "lime juice",
-      "ginger beer",
-      "mint leaves"
-    ]
-  },
   "Negroni": {
     "Name": "Negroni",
     "Link": "https://en.wikipedia.org/wiki/Negroni",
@@ -2049,7 +1969,7 @@
       ],
       [
         "standard garnish",
-        "Orange twist\ncocktail cherry"
+        "Orange twist or cocktail cherry"
       ],
       [
         "standard drinkware",
@@ -2057,7 +1977,7 @@
       ],
       [
         "preparation",
-        "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water.\nMuddle until dissolved. \nFill the glass with ice cubes and add whiskey. \n\nGarnish with orange twist, and a cocktail cherry."
+        "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry."
       ],
       [
         "timing",
@@ -2117,8 +2037,8 @@
       "orange juice"
     ]
   },
-  "Pisco sour": {
-    "Name": "Pisco sour",
+  "Pisco Sour": {
+    "Name": "Pisco Sour",
     "Link": "https://en.wikipedia.org/wiki/Pisco_sour",
     "Details": [
       [
@@ -2163,8 +2083,8 @@
       "egg white"
     ]
   },
-  "Piña colada": {
-    "Name": "Piña colada",
+  "Piña Colada": {
+    "Name": "Piña Colada",
     "Link": "https://en.wikipedia.org/wiki/Pi%C3%B1a_Colada",
     "Details": [
       [
@@ -2177,7 +2097,7 @@
       ],
       [
         "served",
-        "Blended"
+        "Blended with ice (frozen style)"
       ],
       [
         "standard garnish",
@@ -2185,26 +2105,22 @@
       ],
       [
         "standard drinkware",
-        "Poco"
+        "Poco Grande glass"
       ],
       [
         "preparation",
-        "Mix with crushed ice in blender until smooth. Pour into chilled glass, garnish and serve."
-      ],
-      [
-        "notes",
-        "Alternately, the three main components can simply be added to a cocktail glass with ice cubes."
+        "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve with straws."
       ]
     ],
     "Greds": [
-      "3 cl (one part) white rum",
-      "3 cl (one part) coconut cream",
-      "9 cl (3 parts) pineapple juice"
+      "3 cl white rum",
+      "9 cl pineapple juice",
+      "3 cl cream of coconut"
     ],
     "ShortGreds": [
       "white rum",
-      "coconut cream",
-      "pineapple juice"
+      "pineapple juice",
+      "cream of coconut"
     ]
   },
   "Planter's Punch": {
@@ -2233,7 +2149,7 @@
       ],
       [
         "preparation",
-        "Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add Angostura bitters, \"on top\". Garnish with cocktail cherry and pineapple."
+        "Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add dash Angostura bitters. Garnish with cocktail cherry and pineapple."
       ]
     ],
     "Greds": [
@@ -2299,9 +2215,9 @@
       "egg yolk"
     ]
   },
-  "Ramos fizz": {
-    "Name": "Ramos fizz",
-    "Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_Fizz",
+  "Ramos Gin Fizz": {
+    "Name": "Ramos Gin Fizz",
+    "Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_fizz",
     "Details": [
       [
         "type",
@@ -2321,7 +2237,7 @@
       ],
       [
         "preparation",
-        "All ingredients except the soda are poured in a mixing glass, dry shaken (no ice) for two minutes, then ice is added and shaken hard for another minute\nStrained into a highball glass without ice and topped with soda"
+        "All ingredients except the soda are poured in a mixing glass, dry shaken (no ice) for two minutes, then ice is added and shaken hard for another minute. Strain into a highball glass without ice and topped with soda."
       ]
     ],
     "Greds": [
@@ -2387,6 +2303,46 @@
       "strawberry syrup"
     ]
   },
+  "Rum and Coke (Cuba Libre)": {
+    "Name": "Rum and Coke (Cuba Libre)",
+    "Link": "https://en.wikipedia.org/wiki/Cuba_Libre",
+    "Details": [
+      [
+        "type",
+        "Cocktail"
+      ],
+      [
+        "primary alcohol by volume",
+        "Rum"
+      ],
+      [
+        "served",
+        "On the rocks; poured over ice"
+      ],
+      [
+        "standard garnish",
+        "Lime wedge"
+      ],
+      [
+        "standard drinkware",
+        "Highball glass"
+      ],
+      [
+        "preparation",
+        "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge."
+      ]
+    ],
+    "Greds": [
+      "12 cl Cola",
+      "5 cl white rum",
+      "1 cl Fresh lime juice"
+    ],
+    "ShortGreds": [
+      "cola",
+      "white rum",
+      "lime juice"
+    ]
+  },
   "Russian Spring Punch": {
     "Name": "Russian Spring Punch",
     "Link": "https://en.wikipedia.org/wiki/Russian_Spring_Punch",
@@ -2401,11 +2357,11 @@
       ],
       [
         "served",
-        "highball glass"
+        "On the rocks; poured over ice"
       ],
       [
         "standard drinkware",
-        "highball glass"
+        "Highball glass"
       ],
       [
         "preparation",
@@ -2493,7 +2449,7 @@
       ],
       [
         "preparation",
-        "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. \nStir the remaining ingredients over ice and set it aside. \n\nDiscard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.[1]"
+        "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.[1]"
       ],
       [
         "timing",
@@ -2733,7 +2689,7 @@
   },
   "Sloe gin fizz": {
     "Name": "Sloe gin fizz",
-    "Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_Fizz",
+    "Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_fizz",
     "Details": [
       [
         "type",
@@ -2919,8 +2875,8 @@
       ]
     ],
     "Greds": [
-      "3.5 cl Scotch whisky",
-      "3.5 cl Amaretto"
+      "3.5 cl Scotch whisky",
+      "3.5 cl Amaretto"
     ],
     "ShortGreds": [
       "scotch",
@@ -2957,8 +2913,8 @@
       ]
     ],
     "Greds": [
-      "3.5 cl Vodka",
-      "3.5 cl Amaretto"
+      "3.5 cl Vodka",
+      "3.5 cl Amaretto"
     ],
     "ShortGreds": [
       "vodka",
@@ -2979,11 +2935,11 @@
       ],
       [
         "served",
-        "straight (except at Tommy’s)"
+        "Straight (except at Tommy’s)"
       ],
       [
         "standard drinkware",
-        "cocktail glass"
+        "Cocktail glass"
       ],
       [
         "preparation",
@@ -3127,7 +3083,7 @@
       ],
       [
         "standard drinkware",
-        "chilled cocktail glass"
+        "Cocktail glass"
       ],
       [
         "preparation",
@@ -3139,18 +3095,18 @@
       ]
     ],
     "Greds": [
-      "6 cl gin",
-      "1.5 cl vodka",
-      "0.75 cl Lillet Blonde"
+      "6 cl gin",
+      "1.5 cl vodka",
+      "0.75 cl Lillet Blanc"
     ],
     "ShortGreds": [
       "gin",
       "vodka",
-      "lillet blonde"
+      "lillet blanc"
     ]
   },
-  "Whiskey sour": {
-    "Name": "Whiskey sour",
+  "Whiskey Sour": {
+    "Name": "Whiskey Sour",
     "Link": "https://en.wikipedia.org/wiki/Whiskey_sour",
     "Details": [
       [
@@ -3163,7 +3119,7 @@
       ],
       [
         "served",
-        "On the rocks; poured over ice"
+        "On the rocks or straight up"
       ],
       [
         "standard garnish",
@@ -3171,7 +3127,7 @@
       ],
       [
         "standard drinkware",
-        "Cocktail glass"
+        "Old Fashioned glass"
       ],
       [
         "preparation",
