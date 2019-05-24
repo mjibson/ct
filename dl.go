@@ -59,7 +59,7 @@ func dl() error {
 					return
 				}
 				var greds, short []string
-				var details [][]string
+				var prep string
 				s.Find("tbody > tr").Each(func(i int, tr *goquery.Selection) {
 					th := strings.ToLower(strings.TrimSpace(tr.Find("th").Text()))
 					td := strings.TrimSpace(tr.Find("td").Text())
@@ -118,16 +118,23 @@ func dl() error {
 						}
 						return
 					}
-					details = append(details, []string{th, td})
+					if th == "preparation" {
+						prep = td
+					}
 				})
 				if len(greds) == 0 {
+					fmt.Println("no greds", cap)
+					return
+				}
+				if prep == "" {
+					fmt.Println("no prep", cap)
 					return
 				}
 				cap = strings.TrimSuffix(cap, " (cocktail)")
 				ct := CT{
-					Name: cap,
-					Link: u,
-					//Details:    details,
+					Name:       cap,
+					Link:       u,
+					Prep:       prep,
 					Greds:      greds,
 					ShortGreds: short,
 				}
@@ -238,9 +245,9 @@ var (
 )
 
 type CT struct {
-	Name string
-	Link string
-	//Details    [][]string
+	Name       string
+	Link       string
+	Prep       string
 	Greds      []string
 	ShortGreds []string
 }
