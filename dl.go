@@ -125,8 +125,8 @@ func dl() error {
 				}
 				cap = strings.TrimSuffix(cap, " (cocktail)")
 				ct := CT{
-					Name:       cap,
-					Link:       u,
+					Name: cap,
+					Link: u,
 					//Details:    details,
 					Greds:      greds,
 					ShortGreds: short,
@@ -161,7 +161,7 @@ func dl() error {
 	}
 	wg.Wait()
 	b, _ := json.MarshalIndent(cts, "", "  ")
-	return ioutil.WriteFile("src/drinks.json", b, 0666)
+	return ioutil.WriteFile("src/iba.json", b, 0666)
 }
 
 var (
