@@ -208,9 +208,9 @@
 	"Dry Martini": {
 		"Name": "Dry Martini",
 		"Link": "https://en.wikipedia.org/wiki/Martini_(cocktail)",
-		"Prep": "Straight: Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
-		"Greds": ["6 cl (6 parts) gin", "1 cl (1 parts) dry vermouth"],
-		"ShortGreds": ["gin", "dry vermouth"]
+		"Prep": "Pour all ingredients into mixing glass with ice cubes. Stir well. Strain in chilled martini cocktail glass. Squeeze oil from lemon peel onto the drink, or garnish with olive.",
+		"Greds": ["2 1/2 oz gin", "1/2 oz dry vermouth", "1 dash orange bitters"],
+		"ShortGreds": ["gin", "dry vermouth", "orange bitters"]
 	},
 	"Espresso Martini": {
 		"Name": "Espresso Martini",
