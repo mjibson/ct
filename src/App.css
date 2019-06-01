@@ -1,3 +1,24 @@
+:root {
+	--primary: #bb86cf;
+}
+
+body {
+	background-color: #121212;
+	color: #ffffff;
+}
+
+a {
+	color: var(--primary);
+}
+
+.primary {
+	color: var(--primary);
+}
+
+.bg-primary {
+	background-color: var(--primary);
+}
+
 .indent-n2em {
 	margin-left: 1em;
 	text-indent: -1em;

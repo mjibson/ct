@@ -122,37 +122,35 @@ class Index extends Component {
 			.filter(v => !isAlcohol(v))
 			.map(this.renderGred);
 		const make = this.state.make.map(v => (
-			<div key={v.Name} className="ma2">
-				<DrinkLink {...v} />: {GredList(v.ShortGreds)}
+			<div key={v.Name} className="ma2 lh-copy">
+				<DrinkLink {...v} /> {GredList(v.ShortGreds)}
 			</div>
 		));
 		const could = this.state.could.map(v => (
-			<div key={v.Name} className="ma2">
-				<DrinkLink {...v} />
-				&nbsp;(
-				{v.missing.length}
-				): {GredList(v.missing)}
+			<div key={v.Name} className="ma2 lh-copy">
+				<DrinkLink {...v} /> {GredList(v.missing)}
 			</div>
 		));
 		return (
 			<div className="flex">
 				<div className={colClass + ' br'}>
 					<h2>ingredients</h2>
-					alcohols:
+					<h4>alcohols</h4>
 					{gredsAlch}
-					other:
+					<h4>other</h4>
 					{gredsOther}
 				</div>
 				<div className={colClass + ' br'}>
-					have:
+					<h2>have</h2>
 					{have}
 				</div>
 				<div className={colClass + ' br'}>
-					can make:
+					<h2>can make</h2>
 					<div className=" indent-n2em">{make}</div>
 				</div>
 				<div className={colClass}>
-					could make (missing ingredients shown):
+					<h2>could make</h2>
+					missing ingredients shown
 					<div className="">{could}</div>
 				</div>
 			</div>
@@ -175,7 +173,14 @@ function intersperse(arr, sep) {
 }
 
 function DrinkLink(props) {
-	return <Link to={'/drink/' + props.Name}>{props.Name}</Link>;
+	return (
+		<Link
+			className="br2 ph1 pv1 black bg-primary no-underline"
+			to={'/drink/' + props.Name}
+		>
+			{props.Name}
+		</Link>
+	);
 }
 
 function GredList(greds) {
@@ -183,7 +188,11 @@ function GredList(greds) {
 }
 
 function GredLink(props) {
-	return <Link to={'/gred/' + props.Name}>{props.Name}</Link>;
+	return (
+		<Link className="primary" to={'/gred/' + props.Name}>
+			{props.Name}
+		</Link>
+	);
 }
 
 function Drink({ match }) {
@@ -201,7 +210,7 @@ function Drink({ match }) {
 				<div key={v}>{v}</div>
 			))}
 			<h4>preparation</h4>
-			{d.Prep}
+			<div className="mw6">{d.Prep}</div>
 			<h4>other drinks with:</h4>
 			{d.ShortGreds.map(v => (
 				<div key={v}>
@@ -231,7 +240,7 @@ function Gred({ match }) {
 				drinks made with {gred} ({made.length}):
 			</h4>
 			{made.map(v => (
-				<div key={v.Name}>
+				<div key={v.Name} className="mb2">
 					<DrinkLink {...v} />
 				</div>
 			))}
