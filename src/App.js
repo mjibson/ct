@@ -131,20 +131,21 @@ class Index extends Component {
 				<DrinkLink {...v} /> {GredList(v.missing)}
 			</div>
 		));
+		const borderClass = ' br b--white-20';
 		return (
 			<div className="flex">
-				<div className={colClass + ' br'}>
+				<div className={colClass + borderClass}>
 					<h2>ingredients</h2>
 					<h4>alcohols</h4>
 					{gredsAlch}
 					<h4>other</h4>
 					{gredsOther}
 				</div>
-				<div className={colClass + ' br'}>
+				<div className={colClass + borderClass}>
 					<h2>have</h2>
 					{have}
 				</div>
-				<div className={colClass + ' br'}>
+				<div className={colClass + borderClass}>
 					<h2>can make</h2>
 					<div className=" indent-n2em">{make}</div>
 				</div>
