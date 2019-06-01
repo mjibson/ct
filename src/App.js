@@ -93,7 +93,7 @@ class Index extends Component {
 	};
 	renderGred = v => {
 		return (
-			<div className="ma2" key={v}>
+			<div className="mb1" key={v}>
 				<label>
 					<input
 						type="checkbox"
@@ -111,7 +111,7 @@ class Index extends Component {
 		const have = Object.keys(this.state.have)
 			.sort()
 			.map(v => (
-				<div className="ma2" key={v}>
+				<div className="mb1" key={v}>
 					<GredLink Name={v} />
 				</div>
 			));
@@ -127,7 +127,7 @@ class Index extends Component {
 			</div>
 		));
 		const could = this.state.could.map(v => (
-			<div key={v.Name} className="ma2 lh-copy">
+			<div key={v.Name} className="mv2 lh-copy">
 				<DrinkLink {...v} /> {GredList(v.missing)}
 			</div>
 		));
