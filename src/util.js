@@ -20,6 +20,7 @@ const alcohols = {
 	wine: ['white wine'],
 
 	aperitif: ['lillet blonde', 'aperol', 'campari'],
+	digestif: ['fernet-branca'],
 	liqueur: [
 		'crème de menthe',
 		'dom bénédictine',

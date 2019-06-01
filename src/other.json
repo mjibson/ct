@@ -142,10 +142,35 @@
 	"Gibson": {
 		"Name": "Gibson",
 		"Prep": "Combine greds in mixing glass with ice. Stir and strain into chilled cocktail glass. Garnish with cocktail onion.",
-		"Greds": [
-			"2 1/2 oz gin",
-			"1/2 oz dry vermouth"
-		],
+		"Greds": ["2 1/2 oz gin", "1/2 oz dry vermouth"],
 		"ShortGreds": ["gin", "dry vermouth"]
+	},
+	"Bijou": {
+		"Name": "Bijou",
+		"Prep": "Stir in mixing glass with ice and strain. Express and garnish with lemon.",
+		"Link": "https://en.wikipedia.org/wiki/Bijou_(cocktail)",
+		"Greds": [
+			"1 part gin",
+			"1 part green chartreuse",
+			"1 part sweet vermouth",
+			"dash orange bitters"
+		],
+		"ShortGreds": [
+			"gin",
+			"green chartreuse",
+			"sweet vermouth",
+			"orange bitters"
+		]
+	},
+	"Hanky-Panky": {
+		"Name": "Hanky-Panky",
+		"Prep": "Stir in mixing glass with ice and strain. Express and garnish with orange.",
+		"Link": "https://en.wikipedia.org/wiki/Hanky-Panky_cocktail",
+		"Greds": [
+			"1 1/2 oz sweet vermouth",
+			"1 1/2 oz gin",
+			"2 dashes Fernet-Branca"
+		],
+		"ShortGreds": ["sweet vermouth", "gin", "fernet-branca"]
 	}
 }
