@@ -162,6 +162,25 @@
 			"orange bitters"
 		]
 	},
+	"Tailspin": {
+		"Name": "Tailspin",
+		"Prep": "Stir in mixing glass with ice and strain. Express and garnish with lemon.",
+		"Link": "https://en.wikipedia.org/wiki/Bijou_(cocktail)",
+		"Greds": [
+			"1 1/2 oz gin",
+			"1 oz green chartreuse",
+			"1 oz sweet vermouth",
+			"dash orange bitters",
+			"Campari rinse"
+		],
+		"ShortGreds": [
+			"gin",
+			"green chartreuse",
+			"sweet vermouth",
+			"orange bitters",
+			"campari"
+		]
+	},
 	"Hanky-Panky": {
 		"Name": "Hanky-Panky",
 		"Prep": "Stir in mixing glass with ice and strain. Express and garnish with orange.",
