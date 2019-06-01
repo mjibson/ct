@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import 'tachyons/css/tachyons.min.css';
 import './App.css';
 import iba from './iba';
@@ -18,7 +19,7 @@ Object.values(drinks).forEach(v =>
 
 const colClass = 'flex-wrap pa1 mr1';
 
-class App extends Component {
+class Index extends Component {
 	constructor(props) {
 		const gredsByCount = Object.keys(allGreds);
 		gredsByCount
@@ -99,10 +100,9 @@ class App extends Component {
 						name={v}
 						onChange={this.clickGred}
 						checked={!!this.state.checked[v]}
-					/>{' '}
-					{v}
-					&nbsp;(
-					{this.state.allGreds[v]})
+					/>
+					&nbsp;
+					<GredLink Name={v} />
 				</label>
 			</div>
 		);
@@ -112,9 +112,7 @@ class App extends Component {
 			.sort()
 			.map(v => (
 				<div className="ma2" key={v}>
-					{v}
-					&nbsp;(
-					{this.state.allGreds[v]})
+					<GredLink Name={v} />
 				</div>
 			));
 		const gredsAlch = this.state.gredsByCount
@@ -125,19 +123,19 @@ class App extends Component {
 			.map(this.renderGred);
 		const make = this.state.make.map(v => (
 			<div key={v.Name} className="ma2">
-				<a href={v.Link}>{v.Name}</a>: {v.ShortGreds.join(', ')}
+				<DrinkLink {...v} />: {GredList(v.ShortGreds)}
 			</div>
 		));
 		const could = this.state.could.map(v => (
 			<div key={v.Name} className="ma2">
-				<a href={v.Link}>{v.Name}</a>
+				<DrinkLink {...v} />
 				&nbsp;(
 				{v.missing.length}
-				): {v.missing.join(', ')}
+				): {GredList(v.missing)}
 			</div>
 		));
 		return (
-			<div className="sans-serif flex">
+			<div className="flex">
 				<div className={colClass + ' br'}>
 					<h2>ingredients</h2>
 					alcohols:
@@ -160,6 +158,97 @@ class App extends Component {
 			</div>
 		);
 	}
+}
+
+// https://stackoverflow.com/a/23619085/864236
+function intersperse(arr, sep) {
+	if (arr.length === 0) {
+		return [];
+	}
+
+	return arr.slice(1).reduce(
+		function(xs, x, i) {
+			return xs.concat([sep, x]);
+		},
+		[arr[0]]
+	);
+}
+
+function DrinkLink(props) {
+	return <Link to={'/drink/' + props.Name}>{props.Name}</Link>;
+}
+
+function GredList(greds) {
+	return intersperse(greds.map(v => <GredLink key={v} Name={v} />), ', ');
+}
+
+function GredLink(props) {
+	return <Link to={'/gred/' + props.Name}>{props.Name}</Link>;
+}
+
+function Drink({ match }) {
+	const d = drinks[match.params.name];
+	if (!d) {
+		//return 'unknown';
+	}
+	return (
+		<div className={colClass}>
+			<h2>
+				<Link to="/">drinks</Link> &gt; {d.Name}
+			</h2>
+			<h4>ingredients</h4>
+			{d.Greds.map(v => (
+				<div key={v}>{v}</div>
+			))}
+			<h4>preparation</h4>
+			{d.Prep}
+			<h4>other drinks with:</h4>
+			{d.ShortGreds.map(v => (
+				<div key={v}>
+					<GredLink Name={v} />
+				</div>
+			))}
+			{d.Link ? (
+				<h5>
+					<a href={d.Link}>{d.Link}</a>
+				</h5>
+			) : null}
+		</div>
+	);
+}
+
+function Gred({ match }) {
+	const gred = match.params.name;
+	const made = Object.values(drinks)
+		.filter(v => v.ShortGreds.includes(gred))
+		.sort((a, b) => a.Name.localeCompare(b.Name));
+	return (
+		<div className={colClass}>
+			<h2>
+				<Link to="/">drinks</Link> &gt; {gred}
+			</h2>
+			<h4>
+				drinks made with {gred} ({made.length}):
+			</h4>
+			{made.map(v => (
+				<div key={v.Name}>
+					<DrinkLink {...v} />
+				</div>
+			))}
+		</div>
+	);
+}
+
+function App() {
+	return (
+		<Router>
+			<div className="sans-serif">
+				<Route path="/" exact component={Index} />
+				<Route path="/drink/:name" component={Drink} />
+				<Route path="/gred/:name" component={Gred} />
+			</div>
+		</Router>
+	);
 }
 
 export default App;
