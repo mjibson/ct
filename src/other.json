@@ -115,30 +115,6 @@
 			"peychaud's bitters"
 		]
 	},
-	"Ramos Gin Fizz v2": {
-		"Name": "Ramos Gin Fizz v2",
-		"Prep": "Add carbonated water to chilled collins glass. Dry shake everything else. Shake with a single large rock until the cube completely dissolves. Pour over the carbonated water until it hits the rim, then let the meringue set for a couple minutes. Pour the remainder in the middle to lift the meringue and enjoy.",
-		"Greds": [
-			"2 oz gin",
-			"1/2 oz lime juice",
-			"1/2 oz lemon juice",
-			"3/4 oz simple syrup (1:1)",
-			"3/4 oz heavy cream",
-			"1 egg white",
-			"4 drops orange flower water",
-			"1.5 oz carbonated water"
-		],
-		"ShortGreds": [
-			"gin",
-			"lime juice",
-			"lemon juice",
-			"simple syrup",
-			"cream",
-			"egg white",
-			"orange flower water",
-			"carbonated water"
-		]
-	},
 	"Gibson": {
 		"Name": "Gibson",
 		"Prep": "Combine greds in mixing glass with ice. Stir and strain into chilled cocktail glass. Garnish with cocktail onion.",
