@@ -1,12 +1,3 @@
-:root {
-	--primary: #bb86cf;
-}
-
-body {
-	background-color: #121212;
-	color: #ffffff;
-}
-
 a {
 	color: var(--primary);
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import 'tachyons/css/tachyons.min.css';
+import './style.css';
 import './App.css';
 import iba from './iba';
 import other from './other';
