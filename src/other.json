@@ -167,5 +167,18 @@
 			"2 dashes Fernet-Branca"
 		],
 		"ShortGreds": ["sweet vermouth", "gin", "fernet-branca"]
+	},
+	"Vieux Carré": {
+		"Name": "Vieux Carré",
+		"Prep": "Stir in mixing glass with ice and strain. Express and garnish with lemon.",
+		"Greds": [
+			"3/4 oz rye",
+			"3/4 oz cognac",
+			"3/4 oz sweet vermouth",
+			"1 barspoon (1 tsp) dom bénédictine",
+			"1 dash angostura bitters",
+			"1 dash peychaud's bitters",
+		],
+		"ShortGreds": ["rye", "cognac", "sweet vermouth", "dom bénédictine", "angostura bitters", "peychaud's bitters"]
 	}
 }
