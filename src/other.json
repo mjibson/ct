@@ -23,7 +23,7 @@
 	},
 	"Sazerac": {
 		"Name": "Sazerac",
-		"Prep": "Chill a glass; empty and rinse with absinthe. Combine greds in a mixing glass, fill with ice, stir. Strain into absinthe glass. Twist a lemon peel over drink for oils, discard peel.",
+		"Prep": "Chill a glass; empty and rinse with absinthe. Combine greds in a mixing glass, fill with ice, stir. Strain into absinthe glass. Twist a lemon peel over drink for oils, discard peel. Optionally discard ice cube.",
 		"Greds": [
 			"2 oz rye",
 			"scant 1/4 oz simple syrup (1:1)",
