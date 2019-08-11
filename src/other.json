@@ -179,7 +179,14 @@
 			"1 dash angostura bitters",
 			"1 dash peychaud's bitters"
 		],
-		"ShortGreds": ["rye", "cognac", "sweet vermouth", "dom bénédictine", "angostura bitters", "peychaud's bitters"]
+		"ShortGreds": [
+			"rye",
+			"cognac",
+			"sweet vermouth",
+			"dom bénédictine",
+			"angostura bitters",
+			"peychaud's bitters"
+		]
 	},
 	"Naked and Famous": {
 		"Name": "Naked and Famous",
@@ -188,7 +195,7 @@
 			"3/4 oz mezcal",
 			"3/4 oz yellow chartreuse",
 			"3/4 oz aperol",
-			"3/4 oz lime juice",
+			"3/4 oz lime juice"
 		],
 		"ShortGreds": ["mezcal", "yellow chartreuse", "aperol", "lime juice"]
 	}
