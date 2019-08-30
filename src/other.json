@@ -234,5 +234,16 @@
 			"cherry heering",
 			"honey syrup"
 		]
+	},
+	"Monte Cassino": {
+		"Name": "Monte Cassino",
+		"Prep": "Shake with ice, strain into chilled coupe. Express and garnish with lemon.",
+		"Greds": [
+			"3/4 oz rye",
+			"3/4 oz yellow chartreuse",
+			"3/4 oz dom bénédictine",
+			"3/4 oz lemon juice"
+		],
+		"ShortGreds": ["rye", "yellow chartreuse", "dom bénédictine", "lemon juice"]
 	}
 }
