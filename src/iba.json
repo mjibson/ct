@@ -3,21 +3,21 @@
 		"Name": "Alexander",
 		"Link": "https://en.wikipedia.org/wiki/Alexander_(cocktail)",
 		"Prep": "Shake all ingredients with ice and strain contents into a cocktail glass. Sprinkle nutmeg on top and serve.",
-		"Greds": ["3 cl cognac", "3 cl brown crème de cacao", "3 cl light cream"],
+		"Greds": ["1 oz cognac", "1 oz brown crème de cacao", "1 oz light cream"],
 		"ShortGreds": ["cognac", "brown crème de cacao", "light cream"]
 	},
 	"Americano": {
 		"Name": "Americano",
 		"Link": "https://en.wikipedia.org/wiki/Americano_(cocktail)",
 		"Prep": "Pour the Campari and vermouth over ice into a highball glass, add a splash of soda water and garnish with half orange slice and a lemon twist.",
-		"Greds": ["3 cl Campari", "3 cl red vermouth", "A splash of soda water"],
+		"Greds": ["1 oz campari", "1 oz red vermouth", "splash carbonated water"],
 		"ShortGreds": ["campari", "sweet vermouth", "carbonated water"]
 	},
 	"Angel Face": {
 		"Name": "Angel Face",
 		"Link": "https://en.wikipedia.org/wiki/Angel_Face_(cocktail)",
 		"Prep": "Shake all ingredients with ice and strain contents into a cocktail glass.",
-		"Greds": ["3 cl gin", "3 cl Apricot brandy", "3 cl Calvados"],
+		"Greds": ["1 oz gin", "1 oz Apricot brandy", "1 oz Calvados"],
 		"ShortGreds": ["gin", "apricot brandy", "calvados"]
 	},
 	"Aviation": {
@@ -31,14 +31,22 @@
 		"Name": "B-52",
 		"Link": "https://en.wikipedia.org/wiki/B-52_(cocktail)",
 		"Prep": "Layer ingredients into a shot glass.  Serve with a stirrer.",
-		"Greds": ["2 cl Kahlúa", "2 cl Baileys Irish Cream", "2 cl Grand Marnier"],
+		"Greds": [
+			"2/3 oz Kahlúa",
+			"2/3 oz Baileys Irish Cream",
+			"2/3 oz Grand Marnier"
+		],
 		"ShortGreds": ["kahlúa", "baileys irish cream", "grand marnier"]
 	},
 	"Bacardi Cocktail": {
 		"Name": "Bacardi Cocktail",
 		"Link": "https://en.wikipedia.org/wiki/Bacardi_cocktail",
 		"Prep": "Shake together with ice.  Strain into glass and serve",
-		"Greds": ["4.5 cl white rum", "2 cl lime juice", "1 cl grenadine syrup"],
+		"Greds": [
+			"1 1/2 oz white rum",
+			"2/3 oz lime juice",
+			"1/3 oz grenadine syrup"
+		],
 		"ShortGreds": ["white rum", "lime juice", "grenadine"]
 	},
 	"Barracuda": {
@@ -46,9 +54,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Barracuda_(cocktail)",
 		"Prep": "Shake pour ingredients with ice. Strain into glass, top with Sparkling wine.",
 		"Greds": [
-			"4.5 cl Gold rum",
-			"1.5 cl Galliano",
-			"6 cl Pineapple juice",
+			"1 1/2 oz Gold rum",
+			"1/2 oz Galliano",
+			"2 oz Pineapple juice",
 			"1 dash fresh lime juice",
 			"Top with Prosecco"
 		],
@@ -64,7 +72,10 @@
 		"Name": "Bellini",
 		"Link": "https://en.wikipedia.org/wiki/Bellini_(cocktail)",
 		"Prep": "Pour peach purée into chilled glass, add sparkling wine. Stir gently.",
-		"Greds": ["10 cl (2 parts) Prosecco", "5 cl (1 part) fresh peach purée"],
+		"Greds": [
+			"3 1/3 oz (2 parts) Prosecco",
+			"1 2/3 oz (1 part) fresh peach purée"
+		],
 		"ShortGreds": ["prosecco", "peach purée"]
 	},
 	"Between the Sheets": {
@@ -72,10 +83,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Between_the_Sheets_(cocktail)",
 		"Prep": "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass.",
 		"Greds": [
-			"3 cl white rum",
-			"3 cl cognac",
-			"3 cl triple sec",
-			"2 cl fresh lemon juice"
+			"1 oz white rum",
+			"1 oz cognac",
+			"1 oz triple sec",
+			"2/3 oz fresh lemon juice"
 		],
 		"ShortGreds": ["white rum", "cognac", "triple sec", "lemon juice"]
 	},
@@ -83,7 +94,7 @@
 		"Name": "Black Russian",
 		"Link": "https://en.wikipedia.org/wiki/Black_Russian",
 		"Prep": "Pour the ingredients into an old fashioned glass filled with ice cubes. Stir gently.",
-		"Greds": ["5 cl Vodka", "2 cl Coffee liqueur"],
+		"Greds": ["1 2/3 oz Vodka", "2/3 oz Coffee liqueur"],
 		"ShortGreds": ["vodka", "coffee liqueur"]
 	},
 	"Bloody Mary": {
@@ -91,9 +102,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Bloody_Mary_(cocktail)",
 		"Prep": "Stirring gently, pour all ingredients into highball glass. Garnish.",
 		"Greds": [
-			"4.5 cl (3 parts) Vodka",
-			"9 cl (6 parts) Tomato juice",
-			"1.5 cl (1 part) Lemon juice",
+			"1 1/2 oz (3 parts) Vodka",
+			"3 oz (6 parts) Tomato juice",
+			"1/2 oz (1 part) Lemon juice",
 			"2 to 3 dashes of Worcestershire Sauce",
 			"Tabasco",
 			"Celery salt",
@@ -114,10 +125,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Bramble_(cocktail)",
 		"Prep": "Fill glass with crushed ice. Build gin, lemon juice and simple syrup over. Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect. Garnish with two blackberries and lemon slice.",
 		"Greds": [
-			"4 cl gin",
-			"1.5 cl lemon juice",
-			"1 cl simple syrup",
-			"1.5 cl Creme de Mure(blackberry liqueur)"
+			"1 1/3 oz gin",
+			"1/2 oz lemon juice",
+			"1/3 oz simple syrup",
+			"1/2 oz Creme de Mure(blackberry liqueur)"
 		],
 		"ShortGreds": ["gin", "lemon juice", "simple syrup", "crème de mûre"]
 	},
@@ -126,7 +137,7 @@
 		"Link": "https://en.wikipedia.org/wiki/Caipirinha",
 		"Prep": "Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon). Fill the glass with ice and add the Cachaça.",
 		"Greds": [
-			"5 cl cachaça",
+			"1 2/3 oz cachaça",
 			"Half a lime cut into 4 wedges",
 			"2 teaspoons sugar"
 		],
@@ -137,10 +148,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Casino_(cocktail)",
 		"Prep": "Pour all ingredients into shaker with ice cubes. Shake well. Strain into chilled cocktail glass. Garnish with a lemon twist and a maraschino cherry. Serve without a straw.",
 		"Greds": [
-			"4 cl gin (Old Tom)",
-			"1 cl Maraschino",
-			"1 cl orange bitters",
-			"1 cl fresh lemon juice"
+			"1 1/3 oz gin (Old Tom)",
+			"1/3 oz Maraschino",
+			"1/3 oz orange bitters",
+			"1/3 oz fresh lemon juice"
 		],
 		"ShortGreds": ["gin", "maraschino", "orange bitters", "lemon juice"]
 	},
@@ -149,8 +160,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Champagne_Cocktail",
 		"Prep": "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute. Add cognac followed by gently pouring chilled champagne. Garnish with orange slice and maraschino cherry.",
 		"Greds": [
-			"9cl Champagne",
-			"1cl cognac",
+			"3 oz Champagne",
+			"1/3 oz cognac",
 			"2 dashes Angostura bitters",
 			"1 sugar cube"
 		],
@@ -161,9 +172,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Clover_Club_Cocktail",
 		"Prep": "Dry shake ingredients to emulsify, add ice, shake and served straight up.",
 		"Greds": [
-			"4.5cl Gin",
-			"1.5cl Lemon Juice",
-			"1.5cl Raspberry Syrup",
+			"4.1 2/3 oz Gin",
+			"1/2 oz Lemon Juice",
+			"1/2 oz Raspberry Syrup",
 			"1 Egg White"
 		],
 		"ShortGreds": ["gin", "lemon juice", "raspberry syrup", "egg white"]
@@ -173,10 +184,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Cosmopolitan_(cocktail)",
 		"Prep": "Shake all ingredients in cocktail shaker filled with ice. Strain into a large cocktail glass. Garnish with lime slice.",
 		"Greds": [
-			"4 cl Vodka Citron",
-			"1.5 cl Cointreau",
-			"1.5 cl Fresh lime juice",
-			"3 cl Cranberry juice"
+			"1 1/3 oz Vodka Citron",
+			"1/2 oz Cointreau",
+			"1/2 oz Fresh lime juice",
+			"1 oz Cranberry juice"
 		],
 		"ShortGreds": ["vodka citron", "cointreau", "lime juice", "cranberry juice"]
 	},
@@ -185,9 +196,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Daiquiri",
 		"Prep": "Pour all ingredients into shaker with ice cubes. Shake well. Double Strain in chilled cocktail glass.",
 		"Greds": [
-			"4.5 cl / 1.5oz (9 parts) white rum",
-			"2.5 cl / 5/6 oz (5 parts) lime juice",
-			"1.5 cl / 1/2 oz (3 parts) simple syrup"
+			"1 1/2 oz / 1 1/2oz (9 parts) white rum",
+			"2.1 2/3 oz / 5/6 oz (5 parts) lime juice",
+			"1/2 oz / 1/2 oz (3 parts) simple syrup"
 		],
 		"ShortGreds": ["white rum", "lime juice", "simple syrup"]
 	},
@@ -195,14 +206,14 @@
 		"Name": "Dark 'n' Stormy",
 		"Link": "https://en.wikipedia.org/wiki/Dark_%27N%27_Stormy",
 		"Prep": "Fill glass with ice, add rum and top with ginger beer. Garnish with lime wedge.",
-		"Greds": ["6 cl dark rum", "10 cl ginger beer"],
+		"Greds": ["2 oz dark rum", "3 1/3 oz ginger beer"],
 		"ShortGreds": ["dark rum", "ginger beer"]
 	},
 	"Derby": {
 		"Name": "Derby",
 		"Link": "https://en.wikipedia.org/wiki/Derby_(cocktail)",
 		"Prep": "Pour all ingredients into a mixing glass with ice. Stir. Strain into a cocktail glass. Garnish with a sprig of fresh mint in the drink.",
-		"Greds": ["6 cl gin", "2 dashes peach bitters", "2 fresh mint leaves"],
+		"Greds": ["2 oz gin", "2 dashes peach bitters", "2 fresh mint leaves"],
 		"ShortGreds": ["gin", "peach bitters", "mint leaves"]
 	},
 	"Dry Martini": {
@@ -217,8 +228,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Espresso_Martini",
 		"Prep": "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass.",
 		"Greds": [
-			"5 cl Vodka",
-			"1 cl Kahlua",
+			"1 2/3 oz Vodka",
+			"1/3 oz Kahlua",
 			"Sugar syrup (according to individual preference of sweetness)",
 			"1 short strong Espresso"
 		],
@@ -229,10 +240,10 @@
 		"Link": "https://en.wikipedia.org/wiki/French_75_(cocktail)",
 		"Prep": "Combine gin, syrup, and lemon juice in a cocktail shaker filled with ice.  Shake vigorously and strain into a chilled champagne glass.  Top up with Champagne. Stir gently.",
 		"Greds": [
-			"3 cl gin",
+			"1 oz gin",
 			"2 dashes simple syrup",
-			"1.5 cl lemon juice",
-			"6 cl Champagne"
+			"1/2 oz lemon juice",
+			"2 oz Champagne"
 		],
 		"ShortGreds": ["gin", "simple syrup", "lemon juice", "champagne"]
 	},
@@ -240,7 +251,7 @@
 		"Name": "French Connection",
 		"Link": "https://en.wikipedia.org/wiki/French_Connection_(cocktail)",
 		"Prep": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
-		"Greds": ["3.5cl Cognac", "3.5cl Amaretto liqueur"],
+		"Greds": ["3.1 2/3 oz Cognac", "3.1 2/3 oz Amaretto liqueur"],
 		"ShortGreds": ["cognac", "amaretto"]
 	},
 	"French Martini": {
@@ -248,9 +259,9 @@
 		"Link": "https://en.wikipedia.org/wiki/French_Martini",
 		"Prep": "Pour all ingredients into shaker with ice cubes. Shake well and strain into a chilled cocktail glass. Squeeze oil from lemon peel onto the drink.",
 		"Greds": [
-			"4.5 cl vodka",
-			"1.5 cl Raspberry Liqueur",
-			"1.5 cl fresh pineapple juice"
+			"1 1/2 oz vodka",
+			"1/2 oz Raspberry Liqueur",
+			"1/2 oz fresh pineapple juice"
 		],
 		"ShortGreds": ["vodka", "raspberry liqueur", "pineapple juice"]
 	},
@@ -259,10 +270,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_fizz",
 		"Prep": "Shake all ingredients with ice cubes, except soda water. Pour into glass. Top with soda water.",
 		"Greds": [
-			"4.5 cl Gin",
-			"3 cl fresh lemon juice",
-			"1 cl Gomme syrup",
-			"8 cl soda water"
+			"1 1/2 oz Gin",
+			"1 oz fresh lemon juice",
+			"1/3 oz Gomme syrup",
+			"2 2/3 oz soda water"
 		],
 		"ShortGreds": ["gin", "lemon juice", "gomme syrup", "carbonated water"]
 	},
@@ -271,10 +282,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Golden_dream_(cocktail)",
 		"Prep": "Shake with cracked ice.  Strain into glass and serve.",
 		"Greds": [
-			"2 cl (2 parts) Galliano",
-			"2 cl (2 parts) Triple Sec",
-			"2 cl (2 parts) Fresh orange juice",
-			"1 cl (1 part) Fresh cream"
+			"2/3 oz (2 parts) Galliano",
+			"2/3 oz (2 parts) Triple Sec",
+			"2/3 oz (2 parts) Fresh orange juice",
+			"1/3 oz (1 part) Fresh cream"
 		],
 		"ShortGreds": ["galliano", "triple sec", "orange juice", "cream"]
 	},
@@ -283,9 +294,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Grasshopper_(cocktail)",
 		"Prep": "Pour ingredients into a cocktail shaker with ice. Shake briskly and then strain into a chilled cocktail glass.",
 		"Greds": [
-			"3 cl Crème de menthe (green)",
-			"3 cl Crème de cacao (white)",
-			"3 cl cream"
+			"1 oz Crème de menthe (green)",
+			"1 oz Crème de cacao (white)",
+			"1 oz cream"
 		],
 		"ShortGreds": ["crème de menthe", "crème de cacao", "cream"]
 	},
@@ -294,9 +305,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Harvey_Wallbanger",
 		"Prep": "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top.  Garnish and serve.",
 		"Greds": [
-			"4.5 cl (3 parts) Vodka",
-			"1.5 cl (1 part) Galliano",
-			"9 cl(6 parts) fresh orange juice"
+			"1 1/2 oz (3 parts) Vodka",
+			"1/2 oz (1 part) Galliano",
+			"3 oz(6 parts) fresh orange juice"
 		],
 		"ShortGreds": ["vodka", "galliano", "orange juice"]
 	},
@@ -305,10 +316,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Hemingway_Special",
 		"Prep": "Pour all ingredients into a shaker with ice. Shake.",
 		"Greds": [
-			"6 cL (12 parts) Rum",
-			"4 cl (8 parts) grapefruit juice",
-			"1.5 cL (3 parts) Maraschino liqueur",
-			"1.5 cl (3 parts) fresh lime juice"
+			"2 oz (12 parts) Rum",
+			"1 1/3 oz (8 parts) grapefruit juice",
+			"1/2 oz (3 parts) Maraschino liqueur",
+			"1/2 oz (3 parts) fresh lime juice"
 		],
 		"ShortGreds": ["rum", "grapefruit juice", "maraschino", "lime juice"]
 	},
@@ -317,8 +328,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Horse%27s_Neck",
 		"Prep": "Pour brandy and ginger ale directly into highball glass with ice cubes. Stir gently. Garnish with lemon zest. If desired, add dashes of Angostura Bitter.",
 		"Greds": [
-			"4 cL (1 part) Brandy",
-			"12 cL (3 parts) Ginger ale",
+			"1 1/3 oz (1 part) Brandy",
+			"4 oz (3 parts) Ginger ale",
 			"Dash of Angostura bitter (optional)"
 		],
 		"ShortGreds": ["brandy", "ginger ale", "angostura bitters"]
@@ -328,9 +339,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Irish_Coffee",
 		"Prep": "Heat the coffee, whiskey and sugar; do not boil. Pour into glass and top with cream; serve hot.",
 		"Greds": [
-			"4 cl (2 parts) Irish whiskey",
-			"8 cl (4 parts) hot coffee",
-			"3 cl (1½ parts) fresh cream",
+			"1 1/3 oz (2 parts) Irish whiskey",
+			"2 2/3 oz (4 parts) hot coffee",
+			"1 oz (1½ parts) fresh cream",
 			"1 tsp brown sugar"
 		],
 		"ShortGreds": ["irish whiskey", "hot coffee", "cream", "brown sugar"]
@@ -340,10 +351,10 @@
 		"Link": "https://en.wikipedia.org/wiki/John_Collins_(cocktail)",
 		"Prep": "Pour all ingredients directly into highball glass filled with ice. Stir gently. Garnish. Add a dash of Angostura bitters.",
 		"Greds": [
-			"4.5 cl (3 parts) gin",
-			"3 cl (2 parts) freshly squeezed lemon juice",
-			"1.5 cl (1 part) sugar syrup",
-			"6 cl (4 parts) carbonated water"
+			"1 1/2 oz (3 parts) gin",
+			"1 oz (2 parts) freshly squeezed lemon juice",
+			"1/2 oz (1 part) sugar syrup",
+			"2 oz (4 parts) carbonated water"
 		],
 		"ShortGreds": ["gin", "lemon juice", "simple syrup", "carbonated water"]
 	},
@@ -351,21 +362,25 @@
 		"Name": "Kamikaze",
 		"Link": "https://en.wikipedia.org/wiki/Kamikaze_(cocktail)",
 		"Prep": "Shake all ingredients together with ice. Strain into glass, garnish and serve.",
-		"Greds": ["3 cl vodka", "3 cl triple sec", "3 cl lime juice"],
+		"Greds": ["1 oz vodka", "1 oz triple sec", "1 oz lime juice"],
 		"ShortGreds": ["vodka", "triple sec", "lime juice"]
 	},
 	"Kir": {
 		"Name": "Kir",
 		"Link": "https://en.wikipedia.org/wiki/Kir_(cocktail)",
 		"Prep": "Add the crème de cassis to the bottom of the glass, then top up with wine.",
-		"Greds": ["9 cl (9 parts) white wine", "1 cl (1 part) crème de cassis"],
+		"Greds": ["3 oz (9 parts) white wine", "1/3 oz (1 part) crème de cassis"],
 		"ShortGreds": ["white wine", "crème de cassis"]
 	},
 	"Lemon Drop Martini": {
 		"Name": "Lemon Drop Martini",
 		"Link": "https://en.wikipedia.org/wiki/Lemon_Drop_Martini",
 		"Prep": "Shake and strain into a chilled cocktail glass rimmed with sugar.",
-		"Greds": ["2.5 cl vodka citron", "2 cl triple sec", "1.5 cl lemon juice"],
+		"Greds": [
+			"2.1 2/3 oz vodka citron",
+			"2/3 oz triple sec",
+			"1/2 oz lemon juice"
+		],
 		"ShortGreds": ["vodka citron", "triple sec", "lemon juice"]
 	},
 	"Long Island Iced Tea": {
@@ -373,13 +388,13 @@
 		"Link": "https://en.wikipedia.org/wiki/Long_Island_Iced_Tea",
 		"Prep": "Add all ingredients into highball glass filled with ice. Stir gently. Garnish with lemon spiral. Serve with straw.[1]",
 		"Greds": [
-			"1.5 cl  Tequila",
-			"1.5 cl  Vodka",
-			"1.5 cl  White rum",
-			"1.5 cl  Triple sec",
-			"1.5 cl  Gin",
-			"2.5 cl  Lemon juice",
-			"3.0 cl  Gomme Syrup",
+			"1/2 oz  Tequila",
+			"1/2 oz  Vodka",
+			"1/2 oz  White rum",
+			"1/2 oz  Triple sec",
+			"1/2 oz  Gin",
+			"2.1 2/3 oz  Lemon juice",
+			"1 oz  Gomme Syrup",
 			"1 dash of Coke"
 		],
 		"ShortGreds": [
@@ -398,11 +413,11 @@
 		"Link": "https://en.wikipedia.org/wiki/Mai_Tai",
 		"Prep": "Shake all ingredients with ice. Strain into glass. Garnish and serve with straw.",
 		"Greds": [
-			"4 cl white rum",
-			"2 cl dark rum",
-			"1.5 cl orange curaçao",
-			"1.5 cl orgeat syrup",
-			"1 cl fresh lime juice"
+			"1 1/3 oz white rum",
+			"2/3 oz dark rum",
+			"1/2 oz orange curaçao",
+			"1/2 oz orgeat syrup",
+			"1/3 oz fresh lime juice"
 		],
 		"ShortGreds": [
 			"white rum",
@@ -417,8 +432,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Manhattan_(cocktail)",
 		"Prep": "Stirred over ice, strained into a chilled glass, garnished, and served up.",
 		"Greds": [
-			"5 cL Rye whiskey",
-			"2 cL Sweet red vermouth",
+			"1 2/3 oz Rye whiskey",
+			"2/3 oz Sweet red vermouth",
 			"Dash Angostura bitters"
 		],
 		"ShortGreds": ["rye", "sweet vermouth", "angostura bitters"]
@@ -428,9 +443,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Margarita",
 		"Prep": "Pour all ingredients into shaker with ice. Shake well and strain into cocktail glass rimmed with salt.",
 		"Greds": [
-			"3.5 cL (7 parts) tequila",
-			"2 cL (4 parts) Cointreau",
-			"1.5 cL (3 parts) lime juice"
+			"3.1 2/3 oz (7 parts) tequila",
+			"2/3 oz (4 parts) Cointreau",
+			"1/2 oz (3 parts) lime juice"
 		],
 		"ShortGreds": ["tequila", "cointreau", "lime juice"]
 	},
@@ -439,10 +454,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Mary_Pickford_(cocktail)",
 		"Prep": "Shake and strain into a chilled large cocktail glass",
 		"Greds": [
-			"6 cl white rum",
-			"6 cl fresh pineapple juice",
-			"1 cl Grenadine",
-			"1 cl Maraschino"
+			"2 oz white rum",
+			"2 oz fresh pineapple juice",
+			"1/3 oz Grenadine",
+			"1/3 oz Maraschino"
 		],
 		"ShortGreds": ["white rum", "pineapple juice", "grenadine", "maraschino"]
 	},
@@ -450,7 +465,7 @@
 		"Name": "Mimosa",
 		"Link": "https://en.wikipedia.org/wiki/Mimosa_(cocktail)",
 		"Prep": "Ensure both ingredients are well chilled, then mix into the glass. Serve cold.",
-		"Greds": ["7.5 cl champagne", "7.5 cl orange juice"],
+		"Greds": ["7.1 2/3 oz champagne", "7.1 2/3 oz orange juice"],
 		"ShortGreds": ["champagne", "orange juice"]
 	},
 	"Mint Julep": {
@@ -458,7 +473,7 @@
 		"Link": "https://en.wikipedia.org/wiki/Mint_Julep",
 		"Prep": "In a highball glass gently muddle the mint, sugar and water. Fill the glass with cracked ice, add Bourbon and stir well until the glass is well frosted. Garnish with a mint sprig.",
 		"Greds": [
-			"6 cL Bourbon whiskey",
+			"2 oz Bourbon whiskey",
 			"4 mint leaves",
 			"1 teaspoon powdered sugar",
 			"2 teaspoons water"
@@ -470,10 +485,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Mojito",
 		"Prep": "Muddle mint leaves with sugar and lime juice. Add a splash of soda water and fill the glass with cracked ice. Pour the rum and top with soda water. Garnish with sprig of mint leaves and lemon slice. Serve with straw.",
 		"Greds": [
-			"4 cl white rum",
-			"3 cl fresh lime juice",
+			"1 1/3 oz white rum",
+			"1 oz fresh lime juice",
 			"6 sprigs of mint",
-			"2 teaspoons sugar (or 2 cl of sugar syrup)",
+			"2 teaspoons sugar (or 2/3 oz of sugar syrup)",
 			"soda water"
 		],
 		"ShortGreds": [
@@ -489,8 +504,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Monkey_Gland",
 		"Prep": "Shake well over ice cubes in a shaker, strain into a chilled cocktail glass.",
 		"Greds": [
-			"5cl gin",
-			"3cl orange juice",
+			"1 2/3 oz gin",
+			"1 oz orange juice",
 			"2 drops absinthe",
 			"2 drops grenadine"
 		],
@@ -500,7 +515,7 @@
 		"Name": "Negroni",
 		"Link": "https://en.wikipedia.org/wiki/Negroni",
 		"Prep": "Stir into glass over ice, garnish and serve.",
-		"Greds": ["3 cl gin", "3 cl sweet red vermouth", "3 cl campari"],
+		"Greds": ["1 oz gin", "1 oz sweet red vermouth", "1 oz campari"],
 		"ShortGreds": ["gin", "sweet vermouth", "campari"]
 	},
 	"Old Fashioned": {
@@ -508,7 +523,7 @@
 		"Link": "https://en.wikipedia.org/wiki/Old_Fashioned",
 		"Prep": "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry.",
 		"Greds": [
-			"4.5 cl Bourbon or Rye whiskey",
+			"1 1/2 oz Bourbon or Rye whiskey",
 			"2 dashes Angostura bitters",
 			"1 sugar cube",
 			"Few dashes plain water"
@@ -520,9 +535,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Paradise_(cocktail)",
 		"Prep": "Shake together over ice.  Strain into cocktail glass and serve chilled.",
 		"Greds": [
-			"3.5 cl (7 parts) gin",
-			"2 cl (4 parts) apricot brandy",
-			"1.5 cl (3 parts) orange juice"
+			"3.1 2/3 oz (7 parts) gin",
+			"2/3 oz (4 parts) apricot brandy",
+			"1/2 oz (3 parts) orange juice"
 		],
 		"ShortGreds": ["gin", "apricot brandy", "orange juice"]
 	},
@@ -531,9 +546,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Pisco_sour",
 		"Prep": "Vigorously shake contents in a cocktail shaker with ice cubes, then strain into a glass and garnish with bitters.[1]",
 		"Greds": [
-			"4.5cl Pisco",
-			"3cl lime juice",
-			"2cl Simple syrup",
+			"4.1 2/3 oz Pisco",
+			"1 oz lime juice",
+			"2/3 oz Simple syrup",
 			"1 Egg white"
 		],
 		"ShortGreds": ["pisco", "lime juice", "simple syrup", "egg white"]
@@ -543,9 +558,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Pi%C3%B1a_Colada",
 		"Prep": "Blend all the ingredients with ice in a electric blender, pour into a large goblet or Hurricane glass and serve with straws.",
 		"Greds": [
-			"3 cl white rum",
-			"9 cl pineapple juice",
-			"3 cl cream of coconut"
+			"1 oz white rum",
+			"3 oz pineapple juice",
+			"1 oz cream of coconut"
 		],
 		"ShortGreds": ["white rum", "pineapple juice", "cream of coconut"]
 	},
@@ -554,12 +569,12 @@
 		"Link": "https://en.wikipedia.org/wiki/Planter%27s_Punch",
 		"Prep": "Pour all ingredients, except the bitters, into shaker filled with ice. Shake well. Pour into large glass, filled with ice. Add dash Angostura bitters. Garnish with cocktail cherry and pineapple.",
 		"Greds": [
-			"4.5cl Dark rum",
-			"3.5 cl fresh orange juice",
-			"3.5 cl fresh pineapple juice",
-			"2 cl fresh lemon juice",
-			"1 cl Grenadine syrup",
-			"1 cl sugar syrup",
+			"4.1 2/3 oz Dark rum",
+			"3.1 2/3 oz fresh orange juice",
+			"3.1 2/3 oz fresh pineapple juice",
+			"2/3 oz fresh lemon juice",
+			"1/3 oz Grenadine syrup",
+			"1/3 oz sugar syrup",
 			"3 or 4 dashes Angostura bitters"
 		],
 		"ShortGreds": [
@@ -577,9 +592,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Porto_flip",
 		"Prep": "Shake ingredients together in a mixer with ice.  Strain into glass, garnish and serve",
 		"Greds": [
-			"1.5 cl (3 parts) brandy",
-			"4.5 cl (9 parts) port",
-			"1 cl (2 parts) egg yolk"
+			"1/2 oz (3 parts) brandy",
+			"1 1/2 oz (9 parts) port",
+			"1/3 oz (2 parts) egg yolk"
 		],
 		"ShortGreds": ["brandy", "port", "egg yolk"]
 	},
@@ -588,11 +603,11 @@
 		"Link": "https://en.wikipedia.org/wiki/Fizz_(cocktail)#Gin_fizz",
 		"Prep": "All ingredients except the soda are poured in a mixing glass, dry shaken (no ice) for two minutes, then ice is added and shaken hard for another minute. Strain into a highball glass without ice and topped with soda.",
 		"Greds": [
-			"4.5 cl gin",
-			"1.5 cl fresh lime juice",
-			"1.5 cl fresh lemon juice",
-			"3 cl simple syrup",
-			"6 cl cream",
+			"1 1/2 oz gin",
+			"1/2 oz fresh lime juice",
+			"1/2 oz fresh lemon juice",
+			"1 oz simple syrup",
+			"2 oz cream",
 			"1 egg white",
 			"3 dashes orange flower water",
 			"2 drops vanilla extract",
@@ -615,8 +630,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Rose_(cocktail)",
 		"Prep": "Shake together in a cocktail shaker, then strain into chilled glass.  Garnish and serve.",
 		"Greds": [
-			"4 cl (2 parts) dry vermouth",
-			"2 cl (1 parts) Kirsch",
+			"1 1/3 oz (2 parts) dry vermouth",
+			"2/3 oz (1 parts) Kirsch",
 			"3 Dashes Strawberry syrup"
 		],
 		"ShortGreds": ["dry vermouth", "kirsch", "strawberry syrup"]
@@ -625,7 +640,7 @@
 		"Name": "Rum and Coke (Cuba Libre)",
 		"Link": "https://en.wikipedia.org/wiki/Cuba_Libre",
 		"Prep": "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.",
-		"Greds": ["12 cl Cola", "5 cl white rum", "1 cl Fresh lime juice"],
+		"Greds": ["4 oz Cola", "1 2/3 oz white rum", "1/3 oz Fresh lime juice"],
 		"ShortGreds": ["cola", "white rum", "lime juice"]
 	},
 	"Russian Spring Punch": {
@@ -633,10 +648,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Russian_Spring_Punch",
 		"Prep": "Pour the ingredients into an highball glass, top with Sparkling wine.",
 		"Greds": [
-			"2.5 cl Vodka",
-			"1.5 cl Crème de cassis",
-			"1 cl Sugar Syrup",
-			"2.5 cl Lemon Juice, fresh"
+			"2.1 2/3 oz Vodka",
+			"1/2 oz Crème de cassis",
+			"1/3 oz Sugar Syrup",
+			"2.1 2/3 oz Lemon Juice, fresh"
 		],
 		"ShortGreds": ["vodka", "crème de cassis", "simple syrup", "lemon juice"]
 	},
@@ -644,7 +659,7 @@
 		"Name": "Rusty Nail",
 		"Link": "https://en.wikipedia.org/wiki/Rusty_Nail_(cocktail)",
 		"Prep": "Pour all ingredients directly into old-fashioned glass filled with ice. Stir gently. Garnish with a lemon twist. Serve.",
-		"Greds": ["4.5 cl Scotch Whisky", "2.5 cl Drambuie"],
+		"Greds": ["1 1/2 oz Scotch Whisky", "2.1 2/3 oz Drambuie"],
 		"ShortGreds": ["scotch", "drambuie"]
 	},
 	"Cognac Sazerac": {
@@ -652,8 +667,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Sazerac",
 		"Prep": "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside. Stir the remaining ingredients over ice and set it aside. Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass. Add the lemon peel for garnish.[1]",
 		"Greds": [
-			"5 cl cognac",
-			"1 cl absinthe",
+			"1 2/3 oz cognac",
+			"1/3 oz absinthe",
 			"One sugar cube",
 			"Two dashes Peychaud's Bitters"
 		],
@@ -663,14 +678,18 @@
 		"Name": "Screwdriver",
 		"Link": "https://en.wikipedia.org/wiki/Screwdriver_(cocktail)",
 		"Prep": "Mix in a highball glass with ice. Garnish and serve.",
-		"Greds": ["5 cl (1 part) vodka", "10 cl (2 parts) orange juice"],
+		"Greds": ["1 2/3 oz (1 part) vodka", "3 1/3 oz (2 parts) orange juice"],
 		"ShortGreds": ["vodka", "orange juice"]
 	},
 	"Sea Breeze": {
 		"Name": "Sea Breeze",
 		"Link": "https://en.wikipedia.org/wiki/Sea_Breeze_(cocktail)",
 		"Prep": "Build all ingredients in a highball glass filled with ice. Garnish with lime wedge.",
-		"Greds": ["4 cl Vodka", "12 cl Cranberry juice", "3 cl Grapefruit juice"],
+		"Greds": [
+			"1 1/3 oz Vodka",
+			"4 oz Cranberry juice",
+			"1 oz Grapefruit juice"
+		],
 		"ShortGreds": ["vodka", "cranberry juice", "grapefruit juice"]
 	},
 	"Sex on the Beach": {
@@ -678,10 +697,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Sex_on_the_Beach",
 		"Prep": "Build all ingredients in a highball glass filled with ice. Garnish with orange slice.",
 		"Greds": [
-			"4 cl Vodka",
-			"2 cl Peach schnapps",
-			"4 cl Orange juice",
-			"4 cl Cranberry juice"
+			"1 1/3 oz Vodka",
+			"2/3 oz Peach schnapps",
+			"1 1/3 oz Orange juice",
+			"1 1/3 oz Cranberry juice"
 		],
 		"ShortGreds": ["vodka", "peach schnapps", "orange juice", "cranberry juice"]
 	},
@@ -689,7 +708,7 @@
 		"Name": "Sidecar",
 		"Link": "https://en.wikipedia.org/wiki/Sidecar_(cocktail)",
 		"Prep": "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.",
-		"Greds": ["5 cl cognac", "2 cl triple sec", "2 cl lemon juice"],
+		"Greds": ["1 2/3 oz cognac", "2/3 oz triple sec", "2/3 oz lemon juice"],
 		"ShortGreds": ["cognac", "triple sec", "lemon juice"]
 	},
 	"Singapore Sling": {
@@ -697,13 +716,13 @@
 		"Link": "https://en.wikipedia.org/wiki/Singapore_Sling",
 		"Prep": "Pour all ingredients into cocktail shaker filled with ice cubes. Shake well. Strain into highball glass. Garnish with pineapple and cocktail cherry.",
 		"Greds": [
-			"3 cl  Gin",
-			"1.5 cl Cherry Liqueur (cherry brandy)",
-			"0.75 cl  Cointreau",
-			"0.75 cl  DOM Bénédictine",
-			"1 cl  Grenadine",
-			"12 cl  Pineapple juice",
-			"1.5 cl Fresh lime juice",
+			"1 oz  Gin",
+			"1/2 oz Cherry Liqueur (cherry brandy)",
+			"01/4 oz  Cointreau",
+			"01/4 oz  DOM Bénédictine",
+			"1/3 oz  Grenadine",
+			"4 oz  Pineapple juice",
+			"1/2 oz Fresh lime juice",
 			"1 dash Angostura bitters"
 		],
 		"ShortGreds": [
@@ -721,14 +740,14 @@
 		"Name": "Spritz Veneziano",
 		"Link": "https://en.wikipedia.org/wiki/Spritz_Veneziano",
 		"Prep": "Build into glass over ice, garnish and serve.",
-		"Greds": ["6 cl Prosecco", "4 cl Aperol", "Splash of soda water"],
+		"Greds": ["2 oz Prosecco", "1 1/3 oz Aperol", "Splash of soda water"],
 		"ShortGreds": ["prosecco", "aperol", "carbonated water"]
 	},
 	"Stinger": {
 		"Name": "Stinger",
 		"Link": "https://en.wikipedia.org/wiki/Stinger_(cocktail)",
 		"Prep": "Pour in a mixing glass with ice, stir and strain into a cocktail glass.  May also be served on rocks in a rocks glass.",
-		"Greds": ["5cl cognac", "2cl white crème de menthe"],
+		"Greds": ["1 2/3 oz cognac", "2/3 oz white crème de menthe"],
 		"ShortGreds": ["cognac", "white crème de menthe"]
 	},
 	"Tequila Sunrise": {
@@ -736,9 +755,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Tequila_Sunrise_(cocktail)",
 		"Prep": "Pour the tequila and orange juice into glass over ice.  Add the grenadine, which will sink to the bottom.  Stir gently to create the sunrise effect.  Garnish and serve.",
 		"Greds": [
-			"4.5 cl (3 parts) Tequila",
-			"9 cl (6 parts) Orange juice",
-			"1.5 cl (1 part) Grenadine syrup"
+			"1 1/2 oz (3 parts) Tequila",
+			"3 oz (6 parts) Orange juice",
+			"1/2 oz (1 part) Grenadine syrup"
 		],
 		"ShortGreds": ["tequila", "orange juice", "grenadine"]
 	},
@@ -746,14 +765,14 @@
 		"Name": "The Godfather",
 		"Link": "https://en.wikipedia.org/wiki/Godfather_(cocktail)",
 		"Prep": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
-		"Greds": ["3.5 cl Scotch whisky", "3.5 cl Amaretto"],
+		"Greds": ["3.1 2/3 oz Scotch whisky", "3.1 2/3 oz Amaretto"],
 		"ShortGreds": ["scotch", "amaretto"]
 	},
 	"The Godmother": {
 		"Name": "The Godmother",
 		"Link": "https://en.wikipedia.org/wiki/Godfather_(cocktail)",
 		"Prep": "Pour all ingredients directly into old fashioned glass filled with ice cubes. Stir gently.",
-		"Greds": ["3.5 cl Vodka", "3.5 cl Amaretto"],
+		"Greds": ["3.1 2/3 oz Vodka", "3.1 2/3 oz Amaretto"],
 		"ShortGreds": ["vodka", "amaretto"]
 	},
 	"Tommy's Margarita": {
@@ -761,8 +780,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Tommy%27s_Margarita",
 		"Prep": "Shake and strain into a chilled cocktail glass.",
 		"Greds": [
-			"4.5 cl Tequila",
-			"1.5 cl Freshly squeezed lime juice",
+			"1 1/2 oz Tequila",
+			"1/2 oz Freshly squeezed lime juice",
 			"2 bar spoons of agave nectar"
 		],
 		"ShortGreds": ["tequila", "lime juice", "agave nectar"]
@@ -772,8 +791,8 @@
 		"Link": "https://en.wikipedia.org/wiki/Tuxedo_(cocktail)",
 		"Prep": "Stir all ingredients with ice and strain into a cocktail glass.  Garnish with a cherry and a twist of lemon zest.",
 		"Greds": [
-			"3 cl gin (Old Tom)",
-			"3 cl dry Vermouth",
+			"1 oz gin (Old Tom)",
+			"1 oz dry Vermouth",
 			"1/2 barspoon Maraschino",
 			"1/4 barspoon Absinthe",
 			"3 dashes orange bitters"
@@ -791,10 +810,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Vampiro_(cocktail)",
 		"Prep": "Pour ingredients into glass rimmed with salt. Stir.",
 		"Greds": [
-			"5 cl tequila",
-			"7 cl tomato juice",
-			"3 cl fresh orange juice",
-			"1 cl fresh lime juice",
+			"1 2/3 oz tequila",
+			"2 1/3 oz tomato juice",
+			"1 oz fresh orange juice",
+			"1/3 oz fresh lime juice",
 			"1 teaspoon clear honey",
 			"Half slice onion finely chopped",
 			"Few slices fresh red hot chili pepper",
@@ -817,7 +836,7 @@
 		"Name": "Vesper",
 		"Link": "https://en.wikipedia.org/wiki/Vesper_(cocktail)",
 		"Prep": "Shake and strain into a chilled cocktail glass. Add the garnish.",
-		"Greds": ["6 cl gin", "1.5 cl vodka", "0.75 cl Lillet Blanc"],
+		"Greds": ["2 oz gin", "1/2 oz vodka", "01/4 oz Lillet Blanc"],
 		"ShortGreds": ["gin", "vodka", "lillet blanc"]
 	},
 	"Whiskey Sour": {
@@ -825,9 +844,9 @@
 		"Link": "https://en.wikipedia.org/wiki/Whiskey_sour",
 		"Prep": "Shake with ice. Strain into chilled glass, garnish and serve.",
 		"Greds": [
-			"4.5 cl (3 parts) bourbon whiskey",
-			"3 cl (2 parts) fresh lemon juice",
-			"1.5 cl (1 part) Gomme syrup",
+			"1 1/2 oz (3 parts) bourbon whiskey",
+			"1 oz (2 parts) fresh lemon juice",
+			"1/2 oz (1 part) Gomme syrup",
 			"dash egg white (optional)"
 		],
 		"ShortGreds": ["bourbon", "lemon juice", "gomme syrup", "egg white"]
@@ -836,7 +855,7 @@
 		"Name": "White Lady",
 		"Link": "https://en.wikipedia.org/wiki/Sour_(cocktail)#White_Lady",
 		"Prep": "Add all ingredients into cocktail shaker filled with ice. Shake well and strain into large cocktail glass.",
-		"Greds": ["4 cl gin", "3 cl  Triple Sec", "2 cl lemon juice"],
+		"Greds": ["1 1/3 oz gin", "1 oz  Triple Sec", "2/3 oz lemon juice"],
 		"ShortGreds": ["gin", "triple sec", "lemon juice"]
 	},
 	"Yellow Bird": {
@@ -844,10 +863,10 @@
 		"Link": "https://en.wikipedia.org/wiki/Yellow_Bird_(cocktail)",
 		"Prep": "Shake and strain into a chilled cocktail glass",
 		"Greds": [
-			"3 cl White Rum",
-			"1.5 cl Galliano",
-			"1.5 cl Triple sec",
-			"1.5 cl Lime juice"
+			"1 oz White Rum",
+			"1/2 oz Galliano",
+			"1/2 oz Triple sec",
+			"1/2 oz Lime juice"
 		],
 		"ShortGreds": ["white rum", "galliano", "triple sec", "lime juice"]
 	}
