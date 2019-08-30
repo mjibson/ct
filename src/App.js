@@ -197,7 +197,7 @@ function GredLink(props) {
 function Drink({ match }) {
 	const d = drinks[match.params.name];
 	if (!d) {
-		//return 'unknown';
+		return 'unknown';
 	}
 	return (
 		<div className={colClass}>
@@ -230,6 +230,9 @@ function Gred({ match }) {
 	const made = Object.values(drinks)
 		.filter(v => v.ShortGreds.includes(gred))
 		.sort((a, b) => a.Name.localeCompare(b.Name));
+	if (!made.length) {
+		return 'unknown';
+	}
 	return (
 		<div className={colClass}>
 			<h2>
