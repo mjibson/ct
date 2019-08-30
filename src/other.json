@@ -198,5 +198,41 @@
 			"3/4 oz lime juice"
 		],
 		"ShortGreds": ["mezcal", "yellow chartreuse", "aperol", "lime juice"]
+	},
+	"Lion's Tail": {
+		"Name": "Lion's Tail",
+		"Prep": "Shake with ice, strain into chilled coupe. Express and garnish with orange. Can also add egg white.",
+		"Greds": [
+			"2 oz bourbon",
+			"1/2 oz allspice dram",
+			"1/2 oz lime juice",
+			"1 dash angostura bitters",
+			"1 tsp simple syrup"
+		],
+		"ShortGreds": [
+			"bourbon",
+			"allspice dram",
+			"lime juice",
+			"angostura bitters",
+			"simple syrup"
+		]
+	},
+	"Wildest Redhead ": {
+		"Name": "Wildest Redhead ",
+		"Prep": "Shake all greds except cherry heering with ice, strain into rocks glass with ice. Top with cherry heering. Honey syrup: 1 1/2 oz honey, 1/2 oz hot water; stir hot water into honey until dissolved, let cool.",
+		"Greds": [
+			"1 1/2 oz blended scotch",
+			"3/4 oz lemon juice",
+			"1/4 oz allspice dram",
+			"1/4 oz cherry heering",
+			"1/2 oz honey syrup"
+		],
+		"ShortGreds": [
+			"scotch",
+			"lemon juice",
+			"allspice dram",
+			"cherry heering",
+			"honey syrup"
+		]
 	}
 }

@@ -41,6 +41,7 @@ const alcohols = {
 		'green chartreuse',
 		'yellow chartreuse',
 		'lillet blanc',
+		'allspice dram',
 	],
 	spirit: ['absinthe', 'pisco'],
 	'coffee liqueur': ['kahlúa'],
