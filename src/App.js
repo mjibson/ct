@@ -66,10 +66,7 @@ class Index extends Component {
 			});
 			if (!missing.length) {
 				make.push(drink);
-			} else if (
-				missing.length <= 2 &&
-				drink.ShortGreds.length > missing.length
-			) {
+			} else {
 				could.push(Object.assign({ missing: missing }, drink));
 			}
 		});
