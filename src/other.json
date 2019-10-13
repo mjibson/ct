@@ -245,5 +245,59 @@
 			"3/4 oz lemon juice"
 		],
 		"ShortGreds": ["rye", "yellow chartreuse", "dom bénédictine", "lemon juice"]
+	},
+	"Oh, My Word!": {
+		"Name": "Oh, My Word!",
+		"Prep": "Stir with ice, strain into chilled coupe. Express and garnish with lemon.",
+		"Greds": [
+			"3/4 oz old tom gin",
+			"3/4 oz green chartreuse",
+			"3/4 oz amaro montenegro",
+			"3/4 oz maraschino liqueur",
+			"2 dashes lime bitters (Scrappy's)"
+		],
+		"ShortGreds": [
+			"old tom gin",
+			"green chartreuse",
+			"amaro montenegro",
+			"maraschino liqueur",
+			"lime bitters"
+		]
+	},
+	"Sharpie Mustache": {
+		"Name": "Sharpie Mustache",
+		"Prep": "Stir with ice, strain into chilled coupe. Express and garnish with orange.",
+		"Greds": [
+			"3/4 oz meletti amaro",
+			"3/4 oz bonal",
+			"3/4 oz london dry gin (Beefeater)",
+			"3/4 oz overproof rye whiskey (Rittenhouse 100)",
+			"2 dashes tiki bitters (Bittermens)"
+		],
+		"ShortGreds": [
+			"meletti amaro",
+			"bonal",
+			"london dry gin",
+			"rye",
+			"tiki bitters"
+		]
+	},
+	"Di Pompelmo": {
+		"Name": "Di Pompelmo",
+		"Prep": "Stir with ice, strain into chilled coupe. Express and garnish with grapefruit.",
+		"Greds": [
+			"1 1/2 oz reposado tequila",
+			"3/4 oz citron sauvage (Bittermens)",
+			"3/4 oz cocchi americano",
+			"1/2 oz aperol",
+			"2 dashes hopped grapefruit bitters"
+		],
+		"ShortGreds": [
+			"reposado tequila",
+			"citron sauvage",
+			"cocchi americano",
+			"aperol",
+			"hopped grapefruit bitters"
+		]
 	}
 }
