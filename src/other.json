@@ -309,5 +309,17 @@
 			"1 oz campari"
 		],
 		"ShortGreds": ["whiskey", "sweet vermouth", "campari"]
+	},
+	"Bonal & Rye": {
+		"Name": "Bonal & Rye",
+		"Prep": "Stir into glass over ice. Express and garnish with orange or cherry.",
+		"Link": "https://alpenz.com/recipe-0526-0048.html",
+		"Greds": [
+			"1 1/2 oz bonal",
+			"1 1/2 oz rye",
+			"2 dashes orange bitters",
+			"1 dash angostura bitters"
+		],
+		"ShortGreds": ["bonal", "rye", "orange bitters", "angostura bitters"]
 	}
 }
