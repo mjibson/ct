@@ -321,5 +321,39 @@
 			"1 dash angostura bitters"
 		],
 		"ShortGreds": ["bonal", "rye", "orange bitters", "angostura bitters"]
+	},
+	"Petty Complaints": {
+		"Name": "Petty Complaints",
+		"Prep": "Stir with ice, strain into chilled coupe.",
+		"Greds": [
+			"1 1/2 oz blended scotch (famous grouse)",
+			"3/4 oz china china",
+			"3/4 oz vecchio del cappo",
+			"2 dashes buckspice bitters"
+		],
+		"ShortGreds": [
+			"scotch",
+			"china china",
+			"vecchio del cappo",
+			"buckspice bitters"
+		]
+	},
+	"Professor Snape Was a Single Mother": {
+		"Name": "Professor Snape Was a Single Mother",
+		"Prep": "Stir with ice, strain into chilled coupe. Shave nutmeg on top. Express and garnish with flamed lemon. Infuse sherry by roasting an acorn squash with brown sugar and oil, add sherry and wait 4-5 days.",
+		"Greds": [
+			"1 1/2 oz acorn squash fino sherry (tio pepe or lustau)",
+			"1 oz sweet vermouth (cocchi torino)",
+			"3/4 oz spiced rum (lusca)",
+			"2 dashes orange bitters",
+			"1 dash angostura bitters"
+		],
+		"ShortGreds": [
+			"fino sherry",
+			"sweet vermouth",
+			"spiced rum",
+			"orange bitters",
+			"angostura bitters"
+		]
 	}
 }
