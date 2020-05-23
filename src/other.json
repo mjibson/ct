@@ -355,5 +355,17 @@
 			"orange bitters",
 			"angostura bitters"
 		]
-	}
+	},
+	"Bramble v2": {
+		"Name": "Bramble v2",
+		"Link": "https://en.wikipedia.org/wiki/Bramble_(cocktail)",
+		"Prep": "Add gin, lemon, simple and small amount of crushed to shaker. Whip shake, until ice is melted. Pour into old fashioned. Fill with crushed ice. Top with creme de mure. Garnish with two blackberries and lemon slice.",
+		"Greds": [
+			"2 oz gin",
+			".75 oz lemon juice",
+			".5 oz simple syrup",
+			".5 oz creme de mure"
+		],
+		"ShortGreds": ["gin", "lemon juice", "simple syrup", "crème de mûre"]
+	},
 }
