@@ -25,7 +25,7 @@
 		"Name": "Sazerac",
 		"Prep": "Chill a glass; empty and rinse with absinthe. Combine greds in a mixing glass, fill with ice, stir. Strain into absinthe glass. Twist a lemon peel over drink for oils, discard peel. Optionally discard ice cube.",
 		"Greds": [
-			"2 oz rye",
+			"2 oz rye (old overholt)",
 			"scant 1/4 oz simple syrup (1:1)",
 			"1 dash angostura bitters",
 			"2 dashes peychaud's bitters",
@@ -304,7 +304,7 @@
 		"Name": "Boulevardier",
 		"Prep": "Stir into glass over ice. Express and garnish with orange or cherry.",
 		"Greds": [
-			"1 oz whiskey (bourbon or rye)",
+			"1 oz whiskey (bourbon or rye (old overholt))",
 			"1 oz sweet vermouth",
 			"1 oz campari"
 		],
