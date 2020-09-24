@@ -359,7 +359,7 @@
 	"Bramble v2": {
 		"Name": "Bramble v2",
 		"Link": "https://en.wikipedia.org/wiki/Bramble_(cocktail)",
-		"Prep": "Add gin, lemon, simple and small amount of crushed to shaker. Whip shake, until ice is melted. Pour into old fashioned. Fill with crushed ice. Top with creme de mure. Garnish with blackberry and lemon slice.",
+		"Prep": "(This is the better bramble.) Add gin, lemon, simple and small amount of crushed to shaker. Whip shake, until ice is melted. Pour into old fashioned. Fill with crushed ice. Top with creme de mure. Garnish with blackberry and lemon slice.",
 		"Greds": [
 			"2 oz gin",
 			".75 oz lemon juice",
@@ -367,5 +367,15 @@
 			".5 oz creme de mure"
 		],
 		"ShortGreds": ["gin", "lemon juice", "simple syrup", "crème de mûre"]
+	},
+	"El Capitán": {
+		"Name": "El Capitán",
+		"Prep": "Add all ingredient to mixing glass with ice. Stir for 20 seconds. Strain into a coupe glass and garnish with a lemon twist.",
+		"Greds": [
+			"2 oz pisco",
+			"1 oz sweet vermouth",
+			"2 dashes angostura bitters"
+		],
+		"ShortGreds": ["pisco", "sweet vermouth", "angostura bitters"]
 	}
 }
