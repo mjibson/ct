@@ -48,6 +48,7 @@ const alcohols = {
 		'meletti amaro',
 		'cocchi americano',
 		'citron sauvage',
+		'nonino amaro',
 	],
 	spirit: ['absinthe', 'pisco'],
 	'coffee liqueur': ['kahlúa'],
@@ -59,6 +60,7 @@ const alcohols = {
 		'lime bitters',
 		'tiki bitters',
 		'hopped grapefruit bitters',
+		'chocolate bitters',
 	],
 };
 

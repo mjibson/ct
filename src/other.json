@@ -377,5 +377,25 @@
 			"2 dashes angostura bitters"
 		],
 		"ShortGreds": ["pisco", "sweet vermouth", "angostura bitters"]
+	},
+	"Blackjack": {
+		"Name": "Blackjack",
+		"Prep": "Stir with ice, strain into rocks glass with big ice. Add smoke. Tatarian website also lists smoked honey syrup, so maybe add some if you want it sweeter?",
+		"Greds": [
+			"2 oz rye (100 proof Old Forester)",
+			".25 oz smokey scotch (Laphroaig 10)",
+			".5 oz dom bénédictine",
+			".5 oz nonino amaro",
+			"2 dashes orange bitters",
+			"2 dashes chocolate bitters"
+		],
+		"ShortGreds": [
+			"rye",
+			"scotch",
+			"dom bénédictine",
+			"nonino amaro",
+			"orange bitters",
+			"chocolate bitters"
+		]
 	}
 }
