@@ -397,5 +397,24 @@
 			"orange bitters",
 			"chocolate bitters"
 		]
+	},
+	"Amaretto Sour": {
+		"Name": "Amaretto Sour",
+		"Prep": "Add all greds to a blender. Blend until ice has melted. Pour into rocks glass with ice.",
+		"Greds": [
+			"1.5 oz amaretto",
+			".75 oz cask-strength bourbon",
+			"1 oz lemon juice",
+			"1 tsp rich simple syrup",
+			".5 oz egg white (egg white from half a large egg)",
+			"1 ice cube"
+		],
+		"ShortGreds": [
+			"amaretto",
+			"bourbon",
+			"lemon juice",
+			"simple syrup",
+			"egg white"
+		]
 	}
 }
