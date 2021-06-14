@@ -117,8 +117,8 @@
 	},
 	"Gibson": {
 		"Name": "Gibson",
-		"Prep": "Combine greds in mixing glass with ice. Stir and strain into chilled cocktail glass. Garnish with cocktail onion.",
-		"Greds": ["2 1/2 oz gin", "1/2 oz dry vermouth"],
+		"Prep": "Combine greds in mixing glass with ice. Stir and strain into chilled cocktail glass. Garnish with cocktail onion. See: https://www.seriouseats.com/lemon-scented-cocktail-onions-recipe, https://imbibemagazine.com/recipe/homemade-cocktail-onion-recipe/.",
+		"Greds": ["2.5 oz gin", "0.5 oz dry vermouth"],
 		"ShortGreds": ["gin", "dry vermouth"]
 	},
 	"Bijou": {
