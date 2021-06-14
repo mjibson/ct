@@ -521,14 +521,14 @@
 	"Old Fashioned": {
 		"Name": "Old Fashioned",
 		"Link": "https://en.wikipedia.org/wiki/Old_Fashioned",
-		"Prep": "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water. Muddle until dissolved. Fill the glass with ice cubes and add whiskey. Garnish with orange twist, and a cocktail cherry.",
+		"Prep": "Add piece of orange to mixer (do not muddle). Add greds to mixer. Add large ice to rocks glass. Add ice to mixer and stir (quick, only needs a slight chill). Strain into glass with orange peel.",
 		"Greds": [
-			"1 1/2 oz Bourbon or Rye whiskey",
-			"2 dashes Angostura bitters",
-			"1 sugar cube",
-			"Few dashes plain water"
+			"2 oz whiskey, something 100 proof (Colonel EH Taylor Small Batch Bourbon)",
+			"0.25 oz rich demerara syrup (2:1 demerara:water over heat)",
+			"4 dashes Angostura bitters",
+			"small piece of orange",
 		],
-		"ShortGreds": ["whiskey", "angostura bitters", "sugar cube", "water"]
+		"ShortGreds": ["whiskey", "angostura bitters", "sugar cube"]
 	},
 	"Paradise": {
 		"Name": "Paradise",
