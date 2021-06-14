@@ -526,9 +526,9 @@
 			"2 oz whiskey, something 100 proof (Colonel EH Taylor Small Batch Bourbon)",
 			"0.25 oz rich demerara syrup (2:1 demerara:water over heat)",
 			"4 dashes Angostura bitters",
-			"small piece of orange",
+			"small piece of orange"
 		],
-		"ShortGreds": ["whiskey", "angostura bitters", "sugar cube"]
+		"ShortGreds": ["whiskey", "angostura bitters", "simple syrup"]
 	},
 	"Paradise": {
 		"Name": "Paradise",
