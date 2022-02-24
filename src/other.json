@@ -422,5 +422,19 @@
 			"simple syrup",
 			"egg white"
 		]
+	},
+	"Old Pal": {
+		"Name": "Old Pal",
+		"Prep": "Stir with ice, strain, twist lemon.",
+		"Greds": [
+			"1.5 oz whiskey (bourbon or rye)",
+			".75 oz dry vermouth",
+			".75 oz campari"
+		],
+		"ShortGreds": [
+			"whiskey",
+			"dry vermouth",
+			"campari"
+		]
 	}
 }
